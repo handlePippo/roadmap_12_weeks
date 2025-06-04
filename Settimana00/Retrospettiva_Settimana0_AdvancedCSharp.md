@@ -7,7 +7,7 @@
 - [ ] Annotazioni tecniche significative scritte
 
 ## 📊 Ore effettive di deep work
-- Totali: ___h su 15h previste
+- Totali: _1_h su 15h previste
 - Sessioni da 2h completate: ___/5
 
 ## 🧠 Apprendimenti chiave
