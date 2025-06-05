@@ -1,0 +1,15 @@
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\DelegateBasicExample\DelegateBasicExample\bin\Debug\net8.0\DelegateBasicExample.exe
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\DelegateBasicExample\DelegateBasicExample\bin\Debug\net8.0\DelegateBasicExample.deps.json
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\DelegateBasicExample\DelegateBasicExample\bin\Debug\net8.0\DelegateBasicExample.runtimeconfig.json
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\DelegateBasicExample\DelegateBasicExample\bin\Debug\net8.0\DelegateBasicExample.dll
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\DelegateBasicExample\DelegateBasicExample\bin\Debug\net8.0\DelegateBasicExample.pdb
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\DelegateBasicExample\DelegateBasicExample\obj\Debug\net8.0\DelegateBasicExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\DelegateBasicExample\DelegateBasicExample\obj\Debug\net8.0\DelegateBasicExample.AssemblyInfoInputs.cache
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\DelegateBasicExample\DelegateBasicExample\obj\Debug\net8.0\DelegateBasicExample.AssemblyInfo.cs
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\DelegateBasicExample\DelegateBasicExample\obj\Debug\net8.0\DelegateBasicExample.csproj.CoreCompileInputs.cache
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\DelegateBasicExample\DelegateBasicExample\obj\Debug\net8.0\DelegateBasicExample.sourcelink.json
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\DelegateBasicExample\DelegateBasicExample\obj\Debug\net8.0\DelegateBasicExample.dll
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\DelegateBasicExample\DelegateBasicExample\obj\Debug\net8.0\refint\DelegateBasicExample.dll
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\DelegateBasicExample\DelegateBasicExample\obj\Debug\net8.0\DelegateBasicExample.pdb
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\DelegateBasicExample\DelegateBasicExample\obj\Debug\net8.0\DelegateBasicExample.genruntimeconfig.cache
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\DelegateBasicExample\DelegateBasicExample\obj\Debug\net8.0\ref\DelegateBasicExample.dll
