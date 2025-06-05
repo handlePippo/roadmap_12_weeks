@@ -1,4 +1,4 @@
-﻿namespace HrAdministrationAPI
+﻿namespace HrAdministrationAPI.Models
 {
     public abstract class EmployeeBase : IEmployee
     {

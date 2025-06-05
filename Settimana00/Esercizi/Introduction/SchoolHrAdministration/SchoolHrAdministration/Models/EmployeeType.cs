@@ -1,4 +1,4 @@
-﻿namespace SchoolHrAdministration
+﻿namespace SchoolHrAdministration.Models
 {
     public enum EmployeeType
     {

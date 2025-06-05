@@ -1,4 +1,5 @@
-﻿using HrAdministrationAPI;
+﻿using HrAdministrationAPI.Models;
+using SchoolHrAdministration.Models;
 
 namespace SchoolHrAdministration
 {

@@ -1,4 +1,4 @@
-﻿namespace HrAdministrationAPI
+﻿namespace HrAdministrationAPI.Models
 {
     public interface IEmployee
     {

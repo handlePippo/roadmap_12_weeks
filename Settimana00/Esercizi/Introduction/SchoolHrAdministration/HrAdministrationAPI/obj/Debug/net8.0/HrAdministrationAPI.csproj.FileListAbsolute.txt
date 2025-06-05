@@ -10,3 +10,15 @@ C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\
 C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\SchoolHrAdministration\HrAdministrationAPI\obj\Debug\net8.0\refint\HrAdministrationAPI.dll
 C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\SchoolHrAdministration\HrAdministrationAPI\obj\Debug\net8.0\HrAdministrationAPI.pdb
 C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\SchoolHrAdministration\HrAdministrationAPI\obj\Debug\net8.0\ref\HrAdministrationAPI.dll
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Introduction\SchoolHrAdministration\HrAdministrationAPI\bin\Debug\net8.0\HrAdministrationAPI.deps.json
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Introduction\SchoolHrAdministration\HrAdministrationAPI\bin\Debug\net8.0\HrAdministrationAPI.dll
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Introduction\SchoolHrAdministration\HrAdministrationAPI\bin\Debug\net8.0\HrAdministrationAPI.pdb
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Introduction\SchoolHrAdministration\HrAdministrationAPI\obj\Debug\net8.0\HrAdministrationAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Introduction\SchoolHrAdministration\HrAdministrationAPI\obj\Debug\net8.0\HrAdministrationAPI.AssemblyInfoInputs.cache
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Introduction\SchoolHrAdministration\HrAdministrationAPI\obj\Debug\net8.0\HrAdministrationAPI.AssemblyInfo.cs
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Introduction\SchoolHrAdministration\HrAdministrationAPI\obj\Debug\net8.0\HrAdministrationAPI.csproj.CoreCompileInputs.cache
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Introduction\SchoolHrAdministration\HrAdministrationAPI\obj\Debug\net8.0\HrAdministrationAPI.sourcelink.json
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Introduction\SchoolHrAdministration\HrAdministrationAPI\obj\Debug\net8.0\HrAdministrationAPI.dll
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Introduction\SchoolHrAdministration\HrAdministrationAPI\obj\Debug\net8.0\refint\HrAdministrationAPI.dll
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Introduction\SchoolHrAdministration\HrAdministrationAPI\obj\Debug\net8.0\HrAdministrationAPI.pdb
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Introduction\SchoolHrAdministration\HrAdministrationAPI\obj\Debug\net8.0\ref\HrAdministrationAPI.dll
