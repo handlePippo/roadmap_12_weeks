@@ -70,12 +70,6 @@ ESEMPIO:
         return dest; 
     }
 
-
-## 🧠 Riflessioni personali
-
-04/06/2025: Stasera mi sono presentato anche se ero totalmente demoralizzato e paralizzato dalla paura di iniziare, di concretizzare, di fare. A volte sembra tutto inutile, ma a volte basta davvero soltanto iniziare.
-E stasera ho iniziato, e 5 minuti sono diventati 1h30, dove non avrò realizzato il progetto della vita, ma ho posto delle solide ed ordinate basi per procedere a tutta dritta. Forza! Ce la farò.
-
 ### Delegates e Async Method Calls
 
 E' possibile utilizzare multi cast delegates per assegnare ad un singolo delegate, due istanze di delegati dello stesso tipo.
@@ -113,6 +107,10 @@ public class Factory
 }
 
 ## 🧠 Riflessioni personali
+04/06/2025: Stasera mi sono presentato anche se ero totalmente demoralizzato e paralizzato dalla paura di iniziare, di concretizzare, di fare. A volte sembra tutto inutile, ma a volte basta davvero soltanto iniziare.
+E stasera ho iniziato, e 5 minuti sono diventati 1h30, dove non avrò realizzato il progetto della vita, ma ho posto delle solide ed ordinate basi per procedere a tutta dritta. Forza! Ce la farò.
 
 05/06/2025: Stasera non avevo voglia, ma non mi sentivo neanche così giu come ieri. Forse perchè ho iniziato, e sapevo di poter continuare. Mi è piaciuto rivedere la parte dei delegate e i multicast delegates.
 Sento di aver fatto il mio.. non totalmente, ma di averlo fatto. Anche solo in parte. E già sono 2 sere di fila. Non voglio mollare!
+
+06/06/2025: Oggi giornata piena. Ho lavorato fino alle 18.30, poi sono passato nel nuovo appartamento ad ordinare, poi palestra e subito dopo sono uscito. Sono rientrato a mezzanotte, e per coerenza ho svolto circa 15\20 minuti di corso. Non ho fatto molto, ma ho fatto il necessario, e sono rimasto coerente. Domani si macina! P.S: Tripletta! Good job!
