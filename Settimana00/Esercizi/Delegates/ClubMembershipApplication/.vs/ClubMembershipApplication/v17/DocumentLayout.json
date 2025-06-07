@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "FieldValidatorAPI\\CommonFieldValitatorFunctions.cs",
               "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\ClubMembershipApplication\\FieldValidatorAPI\\CommonFieldValitatorFunctions.cs",
               "RelativeToolTip": "FieldValidatorAPI\\CommonFieldValitatorFunctions.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC0AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAIwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-07T12:35:53.443Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "ClubMembershipApplication\\Migrations\\20250607123236_FirstCreate.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T12:33:17.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T12:33:17.325Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "ClubMembershipApplication\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T22:40:32.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T22:40:32.89Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "ClubMembershipApplication\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T22:40:10.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T22:40:10.127Z"
             }
           ]
         }

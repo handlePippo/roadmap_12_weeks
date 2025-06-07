@@ -114,3 +114,5 @@ E stasera ho iniziato, e 5 minuti sono diventati 1h30, dove non avrò realizzato
 Sento di aver fatto il mio.. non totalmente, ma di averlo fatto. Anche solo in parte. E già sono 2 sere di fila. Non voglio mollare!
 
 06/06/2025: Oggi giornata piena. Ho lavorato fino alle 18.30, poi sono passato nel nuovo appartamento ad ordinare, poi palestra e subito dopo sono uscito. Sono rientrato a mezzanotte, e per coerenza ho svolto circa 15\20 minuti di corso. Non ho fatto molto, ma ho fatto il necessario, e sono rimasto coerente. Domani si macina! P.S: Tripletta! Good job!
+
+07/06/2025: Oggi contavo di poter fare di piu, ma ho potuto iniziare dopo pranzo, intorno alle 14.30. Ho svolto circa 1h di corso, scrivendo codice in contemporanea col video del corso, e poi ho fatto 1h di lezione con Gades, portando avanti il gestore di spese mensili. Soddisfatto? Parzialmente. Potevo fare di piu', ma l'importante è che io sia stato costante e abbia mantenuto la coerenza e la catena.
