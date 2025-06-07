@@ -1,0 +1,12 @@
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\ClubMembershipApplication\FieldValidatorAPI\bin\Debug\net8.0\FieldValidatorAPI.deps.json
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\ClubMembershipApplication\FieldValidatorAPI\bin\Debug\net8.0\FieldValidatorAPI.dll
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\ClubMembershipApplication\FieldValidatorAPI\bin\Debug\net8.0\FieldValidatorAPI.pdb
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\ClubMembershipApplication\FieldValidatorAPI\obj\Debug\net8.0\FieldValidatorAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\ClubMembershipApplication\FieldValidatorAPI\obj\Debug\net8.0\FieldValidatorAPI.AssemblyInfoInputs.cache
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\ClubMembershipApplication\FieldValidatorAPI\obj\Debug\net8.0\FieldValidatorAPI.AssemblyInfo.cs
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\ClubMembershipApplication\FieldValidatorAPI\obj\Debug\net8.0\FieldValidatorAPI.csproj.CoreCompileInputs.cache
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\ClubMembershipApplication\FieldValidatorAPI\obj\Debug\net8.0\FieldValidatorAPI.sourcelink.json
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\ClubMembershipApplication\FieldValidatorAPI\obj\Debug\net8.0\FieldValidatorAPI.dll
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\ClubMembershipApplication\FieldValidatorAPI\obj\Debug\net8.0\refint\FieldValidatorAPI.dll
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\ClubMembershipApplication\FieldValidatorAPI\obj\Debug\net8.0\FieldValidatorAPI.pdb
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\ClubMembershipApplication\FieldValidatorAPI\obj\Debug\net8.0\ref\FieldValidatorAPI.dll
