@@ -1,47 +1,8 @@
 ﻿using System.Text.RegularExpressions;
+using static FieldValidatorAPI.Delegates.ValidationDelegates;
 
 namespace FieldValidatorAPI
 {
-    /// <summary>
-    /// Validation of required field
-    /// </summary>
-    /// <param name="fieldValue"></param>
-    /// <returns></returns>
-    public delegate bool RequiredValidDelegate(string fieldValue);
-
-    /// <summary>
-    /// Validation of the length of a given string
-    /// </summary>
-    /// <param name="fieldValue"></param>
-    /// <param name="min"></param>
-    /// <param name="max"></param>
-    /// <returns></returns>
-    public delegate bool StringLengthValidDelegate(string fieldValue, int min, int max);
-
-    /// <summary>
-    /// Validation of a given date
-    /// </summary>
-    /// <param name="fieldValue"></param>
-    /// <param name="validDateTime"></param>
-    /// <returns></returns>
-    public delegate bool DateValidDelegate(string fieldValue, out DateTime validDateTime);
-
-    /// <summary>
-    /// Validation of a given pattern
-    /// </summary>
-    /// <param name="fieldValue"></param>
-    /// <param name="pattern"></param>
-    /// <returns></returns>
-    public delegate bool PatternMatchDelegate(string fieldValue, string pattern);
-
-    /// <summary>
-    /// Validation between two fields
-    /// </summary>
-    /// <param name="fieldValue"></param>
-    /// <param name="fieldValueCompare"></param>
-    /// <returns></returns>
-    public delegate bool CompareFieldsValidDelegate(string fieldValue, string fieldValueCompare);
-
     /// <summary>
     /// Common validator functions
     /// </summary>
@@ -53,6 +14,9 @@ namespace FieldValidatorAPI
         private static PatternMatchDelegate _patternMatchDelegate = null!;
         private static CompareFieldsValidDelegate _compareFieldsValidDelegate = null!;
 
+        /// <summary>
+        /// RequiredFieldValidDelegate
+        /// </summary>
         public static RequiredValidDelegate RequiredFieldValidDelegate
         {
             get
@@ -65,6 +29,9 @@ namespace FieldValidatorAPI
             }
         }
 
+        /// <summary>
+        /// StringFieldLengthValidDelegate
+        /// </summary>
         public static StringLengthValidDelegate StringFieldLengthValidDelegate
         {
             get
@@ -77,6 +44,9 @@ namespace FieldValidatorAPI
             }
         }
 
+        /// <summary>
+        /// DateFieldValidDelegate
+        /// </summary>
         public static DateValidDelegate DateFieldValidDelegate
         {
             get
@@ -89,6 +59,9 @@ namespace FieldValidatorAPI
             }
         }
 
+        /// <summary>
+        /// PatternFieldValidDelegate
+        /// </summary>
         public static PatternMatchDelegate PatternFieldValidDelegate
         {
             get
@@ -101,6 +74,9 @@ namespace FieldValidatorAPI
             }
         }
 
+        /// <summary>
+        /// ComparisonFieldValidDelegate
+        /// </summary>
         public static CompareFieldsValidDelegate ComparisonFieldValidDelegate
         {
             get
@@ -112,6 +88,8 @@ namespace FieldValidatorAPI
                 return _compareFieldsValidDelegate;
             }
         }
+
+        #region private methods
 
         private static bool RequiredFieldValid(string fieldValue)
         {
@@ -137,5 +115,7 @@ namespace FieldValidatorAPI
         {
             return RequiredFieldValid(fieldValue) && RequiredFieldValid(fieldValueCompare) && fieldValue.Equals(fieldValueCompare);
         }
+
+        #endregion
     }
 }
