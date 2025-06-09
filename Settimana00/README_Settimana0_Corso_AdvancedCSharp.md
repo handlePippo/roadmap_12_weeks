@@ -116,3 +116,7 @@ Sento di aver fatto il mio.. non totalmente, ma di averlo fatto. Anche solo in p
 06/06/2025: Oggi giornata piena. Ho lavorato fino alle 18.30, poi sono passato nel nuovo appartamento ad ordinare, poi palestra e subito dopo sono uscito. Sono rientrato a mezzanotte, e per coerenza ho svolto circa 15\20 minuti di corso. Non ho fatto molto, ma ho fatto il necessario, e sono rimasto coerente. Domani si macina! P.S: Tripletta! Good job!
 
 07/06/2025: Oggi contavo di poter fare di piu, ma ho potuto iniziare dopo pranzo, intorno alle 14.30. Ho svolto circa 1h di corso, scrivendo codice in contemporanea col video del corso, e poi ho fatto 1h di lezione con Gades, portando avanti il gestore di spese mensili. Soddisfatto? Parzialmente. Potevo fare di piu', ma l'importante è che io sia stato costante e abbia mantenuto la coerenza e la catena.
+
+08/06/2025: Stop
+
+09/06/2025: Purtroppo ieri ho rotto la catena, è stata una domenica difficile, emotivamente intensa e che sto ancora lavorando. Chissà che effetto mi farà rileggere queste righe tra qualche settimana, quando magari avrò completato il corso.. Beh, a tutta dritta. Si riparte da qui. Stasera ho dedicato 1h30 abbondante al corso e ho cercato di aggiungere "un tocco personale" all'esercizio proposto dal corso sul ClubMembership, introducendo un DTO ed una logica per mappare da DTO a Entity. Voglio davvero fare la differenza! Forza, non si molla!
