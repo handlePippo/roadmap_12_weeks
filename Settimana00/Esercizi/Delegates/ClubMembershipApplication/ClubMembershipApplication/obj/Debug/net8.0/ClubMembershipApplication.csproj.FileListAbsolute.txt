@@ -141,3 +141,5 @@ C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\
 C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\ClubMembershipApplication\ClubMembershipApplication\obj\Debug\net8.0\ClubMembershipApplication.pdb
 C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\ClubMembershipApplication\ClubMembershipApplication\obj\Debug\net8.0\ClubMembershipApplication.genruntimeconfig.cache
 C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\ClubMembershipApplication\ClubMembershipApplication\obj\Debug\net8.0\ref\ClubMembershipApplication.dll
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\ClubMembershipApplication\ClubMembershipApplication\bin\Debug\net8.0\FieldValidatorAPI.dll
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Delegates\ClubMembershipApplication\ClubMembershipApplication\bin\Debug\net8.0\FieldValidatorAPI.pdb

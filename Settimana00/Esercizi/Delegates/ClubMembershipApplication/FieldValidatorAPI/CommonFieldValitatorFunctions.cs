@@ -1,12 +1,12 @@
 ﻿using System.Text.RegularExpressions;
-using static FieldValidatorAPI.Delegates.ValidationDelegates;
+using static FieldValidatorAPI.Delegates.CommonValidationDelegates;
 
 namespace FieldValidatorAPI
 {
     /// <summary>
     /// Common validator functions
     /// </summary>
-    public sealed class CommonFieldValitatorFunctions
+    public static class CommonFieldValitatorFunctions
     {
         private static RequiredValidDelegate _requiredValidDelegate = null!;
         private static StringLengthValidDelegate _stringLengthValidDelegate = null!;

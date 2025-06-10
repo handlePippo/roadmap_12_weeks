@@ -1132,6 +1132,16 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "FieldValidatorAPI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/FieldValidatorAPI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FieldValidatorAPI.dll": {}
+        }
       }
     }
   },
@@ -3208,10 +3218,16 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "FieldValidatorAPI/1.0.0": {
+      "type": "project",
+      "path": "../FieldValidatorAPI/FieldValidatorAPI.csproj",
+      "msbuildProject": "../FieldValidatorAPI/FieldValidatorAPI.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "FieldValidatorAPI >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 9.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.5"
     ]
@@ -3248,7 +3264,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\ClubMembershipApplication\\FieldValidatorAPI\\FieldValidatorAPI.csproj": {
+              "projectPath": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\ClubMembershipApplication\\FieldValidatorAPI\\FieldValidatorAPI.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

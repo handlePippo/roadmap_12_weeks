@@ -120,3 +120,29 @@ Sento di aver fatto il mio.. non totalmente, ma di averlo fatto. Anche solo in p
 08/06/2025: Stop
 
 09/06/2025: Purtroppo ieri ho rotto la catena, è stata una domenica difficile, emotivamente intensa e che sto ancora lavorando. Chissà che effetto mi farà rileggere queste righe tra qualche settimana, quando magari avrò completato il corso.. Beh, a tutta dritta. Si riparte da qui. Stasera ho dedicato 1h30 abbondante al corso e ho cercato di aggiungere "un tocco personale" all'esercizio proposto dal corso sul ClubMembership, introducendo un DTO ed una logica per mappare da DTO a Entity. Voglio davvero fare la differenza! Forza, non si molla!
+
+10/06/2025: Fatto. Anche stasera. Non sarò un fenomeno, ma non ho fatto vincere il loop nella mia testa che mi dice 'sei un coglione' quando semplicemente mi scontro con l'impossibilità di ottenere tutto e subito.
+
+🔹 Kent Beck — creatore di eXtreme Programming, inventore di JUnit
+“I’m not a great programmer. I'm just a good programmer with great habits.”
+
+Tradotto: Non sono geniale. Ma sono sistematico.
+👉 Ha dichiarato che per anni si sentiva lento, fragile, pieno di dubbi — finché non ha costruito metodo.
+
+🔹 Dan Abramov — creatore di Redux (JavaScript)
+Ha scritto pubblicamente:
+
+“Most days I feel like I’m pretending to be a developer. I Google things all the time. I forget stuff constantly.”
+
+👉 Uno dei più rispettati sviluppatori frontend dice di sentirsi un impostore anche oggi.
+
+ Scott Hanselman — figura top di .NET e Microsoft
+Ha parlato più volte di:
+
+Avere sindrome dell’impostore
+
+Sentirsi “indietro rispetto a tutti”
+
+Aver dovuto reimparare tutto su async/await dopo anni di .NET
+
+👉 Lo ha detto in podcast, blog e live pubblici.

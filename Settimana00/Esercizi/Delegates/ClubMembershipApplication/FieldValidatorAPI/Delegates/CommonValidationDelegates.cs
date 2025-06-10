@@ -1,6 +1,6 @@
 ﻿namespace FieldValidatorAPI.Delegates
 {
-    public static class ValidationDelegates
+    public static class CommonValidationDelegates
     {
         /// <summary>
         /// Validation of required field

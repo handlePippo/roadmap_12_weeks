@@ -1,5 +1,8 @@
 ﻿namespace FieldValidatorAPI
 {
+    /// <summary>
+    /// Common RegEx validation patterns
+    /// </summary>
     public static class CommonRegExValidationPatterns
     {
         public const string Email_Address_RegEx_Pattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
