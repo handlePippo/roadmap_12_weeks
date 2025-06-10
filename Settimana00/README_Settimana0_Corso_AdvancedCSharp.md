@@ -146,3 +146,9 @@ Sentirsi “indietro rispetto a tutti”
 Aver dovuto reimparare tutto su async/await dopo anni di .NET
 
 👉 Lo ha detto in podcast, blog e live pubblici.
+
+Se ti presenti ogni giorno, il traguardo ti raggiunge.
+Non devi pensarci. Non devi preoccupartene.
+Devi solo fare la prossima unità di lavoro. E poi la prossima. E poi la prossima.
+
+E a un certo punto, giri lo sguardo e ti accorgi che il traguardo l’hai già passato.
