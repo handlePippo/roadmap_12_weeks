@@ -1,7 +1,7 @@
 ﻿using ClubMembershipApplication.Models;
 using System.Text;
 
-namespace ClubMembershipApplication.FieldValitators
+namespace ClubMembershipApplication.FieldValidators
 {
     /// <summary>
     /// Password validator

@@ -1,4 +1,4 @@
-﻿namespace ClubMembershipApplication.FieldValitators
+﻿namespace ClubMembershipApplication.FieldValidators
 {
     /// <summary>
     /// Field constants

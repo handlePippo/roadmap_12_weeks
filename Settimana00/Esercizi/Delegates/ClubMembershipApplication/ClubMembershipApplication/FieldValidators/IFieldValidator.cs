@@ -1,6 +1,6 @@
 ﻿using static ClubMembershipApplication.Delegates.ClubMembershipSpecificValidationDelegates;
 
-namespace ClubMembershipApplication.FieldValitators
+namespace ClubMembershipApplication.FieldValidators
 {
     /// <summary>
     /// IFieldValidator

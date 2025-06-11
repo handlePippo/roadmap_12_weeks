@@ -152,3 +152,5 @@ Non devi pensarci. Non devi preoccupartene.
 Devi solo fare la prossima unità di lavoro. E poi la prossima. E poi la prossima.
 
 E a un certo punto, giri lo sguardo e ti accorgi che il traguardo l’hai già passato.
+
+11/06/2025: Oggi me ne sono programmate tante e ne ho fatte poche. Ma mi sono presentato, e ho continuato il percorso. Non mi sono fermato. E questo è già tanto.

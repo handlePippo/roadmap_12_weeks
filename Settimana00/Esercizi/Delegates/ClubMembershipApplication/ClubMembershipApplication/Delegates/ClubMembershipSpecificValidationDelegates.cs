@@ -4,6 +4,6 @@
     {
         public delegate bool FieldValidatorDel(int fieldIndex, string field, string[] fields, out string fieldInvalidMessage);
 
-        internal delegate bool EmailExistsDelegate(string emailAddress);
+        internal delegate Task<bool> EmailExistsDelegate(string emailAddress);
     }
 }

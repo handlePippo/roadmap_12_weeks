@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{F82671EE-FC8D-4F00-897D-A64DBA9C5650}|ClubMembershipApplication\\ClubMembershipApplication.csproj|solutionrelative:clubmembershipapplication\\fieldvalitators\\userregistrationvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F82671EE-FC8D-4F00-897D-A64DBA9C5650}|ClubMembershipApplication\\ClubMembershipApplication.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\delegates\\clubmembershipapplication\\clubmembershipapplication\\fieldvalitators\\fieldconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82671EE-FC8D-4F00-897D-A64DBA9C5650}|ClubMembershipApplication\\ClubMembershipApplication.csproj|solutionrelative:clubmembershipapplication\\fieldvalitators\\fieldconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E11D069A-B53D-41C1-AB24-DB62143757A8}|FieldValidatorAPI\\FieldValidatorAPI.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\delegates\\clubmembershipapplication\\fieldvalidatorapi\\commonregexvalidationpatterns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E11D069A-B53D-41C1-AB24-DB62143757A8}|FieldValidatorAPI\\FieldValidatorAPI.csproj|solutionrelative:fieldvalidatorapi\\commonregexvalidationpatterns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82671EE-FC8D-4F00-897D-A64DBA9C5650}|ClubMembershipApplication\\ClubMembershipApplication.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\delegates\\clubmembershipapplication\\clubmembershipapplication\\delegates\\clubmembershipspecificvalidationdelegates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82671EE-FC8D-4F00-897D-A64DBA9C5650}|ClubMembershipApplication\\ClubMembershipApplication.csproj|solutionrelative:clubmembershipapplication\\delegates\\clubmembershipspecificvalidationdelegates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F82671EE-FC8D-4F00-897D-A64DBA9C5650}|ClubMembershipApplication\\ClubMembershipApplication.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\delegates\\clubmembershipapplication\\clubmembershipapplication\\fieldvalitators\\passwordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F82671EE-FC8D-4F00-897D-A64DBA9C5650}|ClubMembershipApplication\\ClubMembershipApplication.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\delegates\\clubmembershipapplication\\clubmembershipapplication\\fieldvalitators\\ifieldvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F82671EE-FC8D-4F00-897D-A64DBA9C5650}|ClubMembershipApplication\\ClubMembershipApplication.csproj|solutionrelative:clubmembershipapplication\\fieldvalitators\\ifieldvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F82671EE-FC8D-4F00-897D-A64DBA9C5650}|ClubMembershipApplication\\ClubMembershipApplication.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\delegates\\clubmembershipapplication\\clubmembershipapplication\\fieldvalitators\\fieldconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F82671EE-FC8D-4F00-897D-A64DBA9C5650}|ClubMembershipApplication\\ClubMembershipApplication.csproj|solutionrelative:clubmembershipapplication\\fieldvalitators\\fieldconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F82671EE-FC8D-4F00-897D-A64DBA9C5650}|ClubMembershipApplication\\ClubMembershipApplication.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\delegates\\clubmembershipapplication\\clubmembershipapplication\\delegates\\clubmembershipspecificvalidationdelegates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F82671EE-FC8D-4F00-897D-A64DBA9C5650}|ClubMembershipApplication\\ClubMembershipApplication.csproj|solutionrelative:clubmembershipapplication\\delegates\\clubmembershipspecificvalidationdelegates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E11D069A-B53D-41C1-AB24-DB62143757A8}|FieldValidatorAPI\\FieldValidatorAPI.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\delegates\\clubmembershipapplication\\fieldvalidatorapi\\commonfieldvalitatorfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 238,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PasswordValidator.cs",
               "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\ClubMembershipApplication\\ClubMembershipApplication\\FieldValitators\\PasswordValidator.cs",
               "RelativeDocumentMoniker": "ClubMembershipApplication\\FieldValitators\\PasswordValidator.cs",
@@ -55,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "IFieldValidator.cs",
               "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\ClubMembershipApplication\\ClubMembershipApplication\\FieldValitators\\IFieldValidator.cs",
               "RelativeDocumentMoniker": "ClubMembershipApplication\\FieldValitators\\IFieldValidator.cs",
@@ -63,31 +63,30 @@
               "RelativeToolTip": "ClubMembershipApplication\\FieldValitators\\IFieldValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T21:11:13.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T21:11:13.641Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "ClubMembershipSpecificValidationDelegates.cs",
               "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\ClubMembershipApplication\\ClubMembershipApplication\\Delegates\\ClubMembershipSpecificValidationDelegates.cs",
               "RelativeDocumentMoniker": "ClubMembershipApplication\\Delegates\\ClubMembershipSpecificValidationDelegates.cs",
               "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\ClubMembershipApplication\\ClubMembershipApplication\\Delegates\\ClubMembershipSpecificValidationDelegates.cs",
               "RelativeToolTip": "ClubMembershipApplication\\Delegates\\ClubMembershipSpecificValidationDelegates.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T21:16:25.145Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CommonRegExValidationPatterns.cs",
               "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\ClubMembershipApplication\\FieldValidatorAPI\\CommonRegExValidationPatterns.cs",
               "RelativeDocumentMoniker": "FieldValidatorAPI\\CommonRegExValidationPatterns.cs",
               "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\ClubMembershipApplication\\FieldValidatorAPI\\CommonRegExValidationPatterns.cs",
               "RelativeToolTip": "FieldValidatorAPI\\CommonRegExValidationPatterns.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T20:59:14.6Z",
               "EditorCaption": ""
@@ -100,20 +99,20 @@
               "RelativeDocumentMoniker": "ClubMembershipApplication\\FieldValitators\\UserRegistrationValidator.cs",
               "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\ClubMembershipApplication\\ClubMembershipApplication\\FieldValitators\\UserRegistrationValidator.cs",
               "RelativeToolTip": "ClubMembershipApplication\\FieldValitators\\UserRegistrationValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAIwHMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T20:54:57.576Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "FieldConstants.cs",
               "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\ClubMembershipApplication\\ClubMembershipApplication\\FieldValitators\\FieldConstants.cs",
               "RelativeDocumentMoniker": "ClubMembershipApplication\\FieldValitators\\FieldConstants.cs",
               "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\ClubMembershipApplication\\ClubMembershipApplication\\FieldValitators\\FieldConstants.cs",
               "RelativeToolTip": "ClubMembershipApplication\\FieldValitators\\FieldConstants.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T20:54:40.321Z",
               "EditorCaption": ""
