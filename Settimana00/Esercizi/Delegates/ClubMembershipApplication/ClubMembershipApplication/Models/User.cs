@@ -1,4 +1,4 @@
-﻿using ClubMembershipApplication.FieldValidators;
+﻿using ClubMembershipApplication.Validators;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ClubMembershipApplication.Models

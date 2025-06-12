@@ -21,7 +21,7 @@ namespace FieldValidatorAPI
         {
             get
             {
-                if(_requiredValidDelegate is null)
+                if (_requiredValidDelegate is null)
                 {
                     _requiredValidDelegate = new RequiredValidDelegate(RequiredFieldValid);
                 }

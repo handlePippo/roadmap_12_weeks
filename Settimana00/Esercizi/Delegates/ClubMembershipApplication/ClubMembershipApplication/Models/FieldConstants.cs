@@ -1,4 +1,4 @@
-﻿namespace ClubMembershipApplication.FieldValidators
+﻿namespace ClubMembershipApplication.Models
 {
     /// <summary>
     /// Field constants
@@ -21,6 +21,16 @@
             AddressSecondLine,
             AddressCity,
             PostCode
+        }
+
+        /// <summary>
+        /// Enum used to change the font theme
+        /// </summary>
+        public enum FontTheme
+        {
+            Default,
+            Danger,
+            Success
         }
     }
 }

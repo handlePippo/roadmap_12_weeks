@@ -1,6 +1,6 @@
 ﻿using ClubMembershipApplication.Models;
 
-namespace ClubMembershipApplication.Data
+namespace ClubMembershipApplication.Interfaces.Application
 {
     public interface ILogin
     {

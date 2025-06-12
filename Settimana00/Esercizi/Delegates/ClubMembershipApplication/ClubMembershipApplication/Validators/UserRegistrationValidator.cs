@@ -1,11 +1,13 @@
-﻿using ClubMembershipApplication.Data;
+﻿using ClubMembershipApplication.Interfaces.Application;
+using ClubMembershipApplication.Interfaces.Fields;
+using ClubMembershipApplication.Models;
 using FieldValidatorAPI;
-using static ClubMembershipApplication.Delegates.ClubMembershipSpecificValidationDelegates;
+using static ClubMembershipApplication.Models.Delegates.ClubMembershipSpecificValidationDelegates;
 using static FieldValidatorAPI.Delegates.CommonValidationDelegates;
 
-namespace ClubMembershipApplication.FieldValidators
+namespace ClubMembershipApplication.Validators
 {
-    public class UserRegistrationValidator : IFieldValidator
+    public sealed class UserRegistrationValidator : IFieldValidator
     {
         private const int FirstName_Min_Length = 2;
         private const int FirstName_Max_Length = 100;
@@ -51,7 +53,7 @@ namespace ClubMembershipApplication.FieldValidators
         /// </summary>
         public UserRegistrationValidator(IRegister register)
         {
-            _register = register;   
+            _register = register;
         }
 
         public void InitializeValidatorDelegates()
@@ -64,7 +66,7 @@ namespace ClubMembershipApplication.FieldValidators
             _dateValidDelegate = CommonFieldValitatorFunctions.DateFieldValidDelegate;
             _patternMatchDelegate = CommonFieldValitatorFunctions.PatternFieldValidDelegate;
             _compareFieldsValidDelegate = CommonFieldValitatorFunctions.ComparisonFieldValidDelegate;
-            
+
         }
 
         private static bool ValidateField(int fieldIndex, string field, string[] fields, out string fieldInvalidMessage)
@@ -87,7 +89,7 @@ namespace ClubMembershipApplication.FieldValidators
                     {
                         fieldInvalidMessage = $"You must enter a valid email address{Environment.NewLine}";
                     }
-                    if (fieldInvalidMessage == string.Empty && _emailExistsDelegate(field).GetAwaiter().GetResult())
+                    if (fieldInvalidMessage == string.Empty && _emailExistsDelegate(field))
                     {
                         fieldInvalidMessage = $"This email address already exists{Environment.NewLine}";
                     }
@@ -180,7 +182,7 @@ namespace ClubMembershipApplication.FieldValidators
                     throw new ArgumentException($"Field {field} does not exist");
             }
 
-            return (fieldInvalidMessage == string.Empty);
+            return fieldInvalidMessage == string.Empty;
         }
     }
 }
