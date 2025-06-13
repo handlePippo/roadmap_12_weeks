@@ -154,3 +154,6 @@ Devi solo fare la prossima unità di lavoro. E poi la prossima. E poi la prossim
 E a un certo punto, giri lo sguardo e ti accorgi che il traguardo l’hai già passato.
 
 11/06/2025: Oggi me ne sono programmate tante e ne ho fatte poche. Ma mi sono presentato, e ho continuato il percorso. Non mi sono fermato. E questo è già tanto.
+
+13/06/2024: Ieri mi sono scordato di scrivere il README, ma c'ero cazzo. Oggi è stata una giornata importante, sono ufficialmente entrato nel mio appartamento. Da qui inizia un nuovo capitolo. Una rinascita.
+E la cosa piu' bella? Che nonostante sono stanchissimo, ho comunque dedicato 30\40 minuti al percorso, mantenendo coerenza e la parola data a me stesso. A domani. Si continua... piano, ma senza sosta. Creiamo fottuta massa critica.

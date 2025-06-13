@@ -21,10 +21,10 @@ namespace ClubMembershipApplication.Validators
         private static CompareFieldsValidDelegate _compareFieldsValidDelegate = null!;
 
         private static EmailExistsDelegate _emailExistsDelegate = null!;
-
         private static FieldValidatorDel _fieldValidatorDel = null!;
 
         private string[] _fieldArray = null!;
+        private readonly IRegister _register;
 
         public string[] FieldsArray
         {
@@ -45,8 +45,6 @@ namespace ClubMembershipApplication.Validators
                 return _fieldValidatorDel;
             }
         }
-
-        private readonly IRegister _register;
 
         /// <summary>
         /// Constructor
@@ -129,9 +127,16 @@ namespace ClubMembershipApplication.Validators
                     {
                         fieldInvalidMessage = $"You must enter a value for field: {fieldName}{Environment.NewLine}";
                     }
-                    if (fieldInvalidMessage == string.Empty && !_compareFieldsValidDelegate(field, fields[(int)FieldConstants.UserRegistrationField.Password]))
+                    if (fieldInvalidMessage == string.Empty)
                     {
-                        fieldInvalidMessage = $"Your entry did not match your password{Environment.NewLine}";
+                        if (fields[(int)FieldConstants.UserRegistrationField.Password] is null)
+                        {
+                            throw new InvalidOperationException("PasswordCompare must only set after Password!");
+                        }
+                        if (!_compareFieldsValidDelegate(field, fields[(int)FieldConstants.UserRegistrationField.Password]))
+                        {
+                            fieldInvalidMessage = $"Your entry did not match your password{Environment.NewLine}";
+                        }
                     }
                     break;
                 case FieldConstants.UserRegistrationField.DateOfBirth:
