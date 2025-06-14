@@ -30,6 +30,7 @@ namespace ClubMembershipApplication.Views
 
         public async Task RunView()
         {
+            CommonOutputText.WriteMainHeading();
             CommonOutputText.WriteRegistrationHeading();
 
             _fieldValidator.FieldsArray[(int)UserRegistrationField.EmailAddress] = GetInputFromUser(UserRegistrationField.EmailAddress, "Please enter your email address");
@@ -67,7 +68,7 @@ namespace ClubMembershipApplication.Views
             {
                 CommonOutputFormat.ChangeFontColor(FontTheme.Danger);
                 Console.WriteLine(msg);
-                CommonOutputFormat.ChangeFontColor(FontTheme.Default);
+                CommonOutputFormat.ChangeFontColor(default);
                 return false;
             }
             return true;
@@ -91,7 +92,18 @@ namespace ClubMembershipApplication.Views
             };
 
             User user = userDto;
-            _ = await _register.Register(user);
+            var result = await _register.Register(user);
+
+            if(result == true)
+            {
+                CommonOutputFormat.ChangeFontColor(FontTheme.Success);
+                Console.WriteLine("You have successfully registered. Please enter any key to login");
+                CommonOutputFormat.ChangeFontColor(default);
+                return;
+            }
+            CommonOutputFormat.ChangeFontColor(FontTheme.Danger);
+            Console.WriteLine("Internal error while storing the information. Please try again later");
+            CommonOutputFormat.ChangeFontColor(default);
         }
     }
 }

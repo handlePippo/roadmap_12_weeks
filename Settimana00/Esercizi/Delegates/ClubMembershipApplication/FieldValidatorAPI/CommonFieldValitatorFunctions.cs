@@ -11,7 +11,7 @@ namespace FieldValidatorAPI
         private static RequiredValidDelegate _requiredValidDelegate = null!;
         private static StringLengthValidDelegate _stringLengthValidDelegate = null!;
         private static DateValidDelegate _dateValidDelegate = null!;
-        private static PatternMatchDelegate _patternMatchDelegate = null!;
+        private static PatternMatchValidDelegate _patternMatchDelegate = null!;
         private static CompareFieldsValidDelegate _compareFieldsValidDelegate = null!;
 
         /// <summary>
@@ -62,13 +62,13 @@ namespace FieldValidatorAPI
         /// <summary>
         /// PatternFieldValidDelegate
         /// </summary>
-        public static PatternMatchDelegate PatternFieldValidDelegate
+        public static PatternMatchValidDelegate PatternFieldValidDelegate
         {
             get
             {
                 if (_patternMatchDelegate is null)
                 {
-                    _patternMatchDelegate = new PatternMatchDelegate(PatternFieldValid);
+                    _patternMatchDelegate = new PatternMatchValidDelegate(PatternFieldValid);
                 }
                 return _patternMatchDelegate;
             }
@@ -91,7 +91,7 @@ namespace FieldValidatorAPI
 
         #region private methods
 
-        private static bool RequiredFieldValid(string fieldValue)
+        private static bool RequiredFieldValid(string? fieldValue)
         {
             return !string.IsNullOrWhiteSpace(fieldValue);
         }

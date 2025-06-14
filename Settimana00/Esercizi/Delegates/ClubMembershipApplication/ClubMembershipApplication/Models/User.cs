@@ -7,21 +7,21 @@ namespace ClubMembershipApplication.Models
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; private set; }
-        public required string EmailAddress { get; set; }
-        public required string FirstName { get; set; }
-        public required string LastName { get; set; }
+        public string EmailAddress { get; private set; } = null!;
+        public string FirstName { get; private set; } = null!;
+        public string LastName { get; private set; } = null!;
         public string Password { get; private set; } = null!;
-        public required DateTime DateOfBirth { get; set; }
-        public required string PhoneNumber { get; set; }
-        public required string AddressFirstLine { get; set; }
-        public string? AddressSecondLine { get; set; }
-        public required string AddressCity { get; set; }
-        public required string PostCode { get; set; }
+        public DateTime DateOfBirth { get; private set; }
+        public string PhoneNumber { get; private set; } = null!;
+        public string AddressFirstLine { get; private set; } = null!;
+        public string? AddressSecondLine { get; private set; }
+        public string AddressCity { get; private set; } = null!;
+        public string PostCode { get; private set; } = null!;
 
         /// <summary>
         /// Constructor
         /// </summary>
-        private User() { }
+        public User() { }
 
         /// <summary>
         /// Implicit operator
@@ -34,6 +34,7 @@ namespace ClubMembershipApplication.Models
                 EmailAddress = dto.EmailAddress,
                 FirstName = dto.FirstName,
                 LastName = dto.LastName,
+                Password = dto.Password,
                 DateOfBirth = dto.DateOfBirth,
                 PhoneNumber = dto.PhoneNumber,
                 AddressFirstLine = dto.AddressFirstLine,
@@ -59,14 +60,61 @@ namespace ClubMembershipApplication.Models
             return user;
         }
 
-        /// <summary>
-        /// Sets the hashed password after validating input
-        /// </summary>
-        /// <param name="password"></param>
+        public void SetEmailAddress(string emailAddress)
+        {
+            ArgumentException.ThrowIfNullOrWhiteSpace(emailAddress);
+            EmailAddress = emailAddress;
+        }
+
+        public void SetFirstName(string firstName)
+        {
+            ArgumentException.ThrowIfNullOrWhiteSpace(firstName);
+            FirstName = firstName;
+        }
+
+        public void SetLastName(string lastName)
+        {
+            ArgumentException.ThrowIfNullOrWhiteSpace(lastName);
+            LastName = lastName;
+        }
+
         public void SetPassword(string password)
         {
             ArgumentException.ThrowIfNullOrWhiteSpace(password);
             Password = PasswordValidator.HashPassword(password);
+        }
+
+        public void SetDateOfBirth(DateTime dateOfBirth)
+        {
+            DateOfBirth = dateOfBirth;
+        }
+
+        public void SetPhoneNumber(string phoneNumber)
+        {
+            ArgumentException.ThrowIfNullOrWhiteSpace(phoneNumber);
+            PhoneNumber = phoneNumber;
+        }
+
+        public void SetAddressFirstLine(string addressFirstLine)
+        {
+            ArgumentException.ThrowIfNullOrWhiteSpace(addressFirstLine);
+            AddressFirstLine = addressFirstLine;
+        }
+
+        public void SetAddressSecondLine(string? addressSecondLine)
+        {
+            AddressSecondLine = addressSecondLine;
+        }
+
+        public void SetAddressCity(string addressCity)
+        {
+            ArgumentException.ThrowIfNullOrWhiteSpace(addressCity);
+            AddressCity = addressCity;
+        }
+        public void SetPostCode(string postCode)
+        {
+            ArgumentException.ThrowIfNullOrWhiteSpace(postCode);
+            PostCode = postCode;
         }
     }
 }

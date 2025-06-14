@@ -7,7 +7,7 @@
         /// </summary>
         /// <param name="fieldValue"></param>
         /// <returns></returns>
-        public delegate bool RequiredValidDelegate(string fieldValue);
+        public delegate bool RequiredValidDelegate(string? fieldValue);
 
         /// <summary>
         /// Validation of the length of a given string
@@ -32,7 +32,7 @@
         /// <param name="fieldValue"></param>
         /// <param name="pattern"></param>
         /// <returns></returns>
-        public delegate bool PatternMatchDelegate(string fieldValue, string pattern);
+        public delegate bool PatternMatchValidDelegate(string fieldValue, string pattern);
 
         /// <summary>
         /// Validation between two fields

@@ -3,6 +3,9 @@ using ClubMembershipApplication.Models;
 
 namespace ClubMembershipApplication.Data
 {
+    /// <summary>
+    /// User registration
+    /// </summary>
     public sealed class RegisterUser : IRegister
     {
         public bool EmailExists(string emailAddress)

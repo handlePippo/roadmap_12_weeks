@@ -17,7 +17,7 @@ namespace ClubMembershipApplication.Validators
         private static RequiredValidDelegate _requiredFieldValidDelegate = null!;
         private static StringLengthValidDelegate _stringLengthValidDelegate = null!;
         private static DateValidDelegate _dateValidDelegate = null!;
-        private static PatternMatchDelegate _patternMatchDelegate = null!;
+        private static PatternMatchValidDelegate _patternMatchDelegate = null!;
         private static CompareFieldsValidDelegate _compareFieldsValidDelegate = null!;
 
         private static EmailExistsDelegate _emailExistsDelegate = null!;
