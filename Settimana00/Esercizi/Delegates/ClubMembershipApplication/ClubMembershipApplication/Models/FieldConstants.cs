@@ -28,6 +28,7 @@
         /// </summary>
         public enum FontTheme
         {
+            Default,
             Danger,
             Success
         }

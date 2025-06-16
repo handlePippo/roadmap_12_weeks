@@ -10,22 +10,40 @@ namespace ClubMembershipApplication.Data
     {
         public bool EmailExists(string emailAddress)
         {
-            bool emailExists = false;
-            using (var dbContext = new ClubMembershipDbContext())
+            try
             {
-                emailExists = dbContext.Users.FirstOrDefault(u => u.EmailAddress == emailAddress) != null;
+                bool emailExists = false;
+                using (var dbContext = new ClubMembershipDbContext())
+                {
+                    emailExists = dbContext.Users.FirstOrDefault(u => u.EmailAddress == emailAddress) != null;
+                }
+                return emailExists;
             }
-            return emailExists;
+            catch (Exception ex)
+            {
+                ex.Data["emailAddress"] = emailAddress;
+                Console.WriteLine(ex.Message);
+                throw;
+            }
         }
 
         public async Task<bool> Register(User user)
         {
-            using (var dbContext = new ClubMembershipDbContext())
+            try
             {
-                await dbContext.Users.AddAsync(user);
-                await dbContext.SaveChangesAsync();
+                using (var dbContext = new ClubMembershipDbContext())
+                {
+                    await dbContext.Users.AddAsync(user);
+                    await dbContext.SaveChangesAsync();
+                }
+                return await Task.FromResult(true);
             }
-            return await Task.FromResult(true);
+            catch (Exception ex)
+            {
+                ex.Data["user"] = user;
+                Console.WriteLine(ex.Message);
+                throw;
+            }
         }
     }
 }

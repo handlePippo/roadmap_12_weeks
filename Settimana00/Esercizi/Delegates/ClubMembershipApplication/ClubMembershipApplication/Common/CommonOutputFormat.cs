@@ -16,9 +16,11 @@ namespace ClubMembershipApplication.Common
                     Console.BackgroundColor = ConsoleColor.Green;
                     Console.ForegroundColor = ConsoleColor.White;
                     break;
-                default:
+                case FontTheme.Default:
                     Console.ResetColor();
                     break;
+                default:
+                    throw new NullReferenceException($"Invalid font theme {fontTheme}");
             }
         }
     }

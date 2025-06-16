@@ -30,7 +30,7 @@ namespace ClubMembershipApplication.Views
             string? emailAddress;
             do
             {
-                Console.WriteLine("Please enter your email address");
+                Console.Write("Please enter your email address: ");
                 emailAddress = Console.ReadLine();
             }
             while (!_requiredValidDelegate(emailAddress));
@@ -38,7 +38,7 @@ namespace ClubMembershipApplication.Views
             string? password;
             do
             {
-                Console.WriteLine("Please enter your email password");
+                Console.Write("Please enter your email password: ");
                 password = Console.ReadLine();
             }
             while (!_requiredValidDelegate(password));
@@ -56,7 +56,7 @@ namespace ClubMembershipApplication.Views
             Console.Clear();
             CommonOutputFormat.ChangeFontColor(FontTheme.Danger);
             Console.WriteLine("The credentials that you entered does not match any existing record");
-            CommonOutputFormat.ChangeFontColor(default);
+            CommonOutputFormat.ChangeFontColor(FontTheme.Default);
             Console.ReadKey();
         }
     }
