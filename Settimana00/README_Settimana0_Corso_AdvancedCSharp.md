@@ -159,3 +159,5 @@ E a un certo punto, giri lo sguardo e ti accorgi che il traguardo l’hai già p
 E la cosa piu' bella? Che nonostante sono stanchissimo, ho comunque dedicato 30\40 minuti al percorso, mantenendo coerenza e la parola data a me stesso. A domani. Si continua... piano, ma senza sosta. Creiamo fottuta massa critica.
 
 14/06/2025: Il lavoro prosegue. Anche oggi mi sono presentato, e la giornata è stata abbastanza produttiva.
+
+16/06/2025: Ieri non ho potuto materiale svolgere il corso e presentarmi, perchè sono stato tutto il giorno al pronto soccorso, e appena sono tornato a casa mi sono immediatamente messo a dormire. Non chiudevo occhio da 48h, me lo meritavo. Comunque, da oggi ho ripreso in mano la situazione e ho affermato la coerenza e l'intenzione che ci e voglio continuare a metterci. 
