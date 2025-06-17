@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\ClubMembershipApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F82671EE-FC8D-4F00-897D-A64DBA9C5650}|ClubMembershipApplication\\ClubMembershipApplication.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\delegates\\clubmembershipapplication\\clubmembershipapplication\\views\\userwelcomeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82671EE-FC8D-4F00-897D-A64DBA9C5650}|ClubMembershipApplication\\ClubMembershipApplication.csproj|solutionrelative:clubmembershipapplication\\views\\userwelcomeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82671EE-FC8D-4F00-897D-A64DBA9C5650}|ClubMembershipApplication\\ClubMembershipApplication.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\delegates\\clubmembershipapplication\\clubmembershipapplication\\views\\userregistrationview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82671EE-FC8D-4F00-897D-A64DBA9C5650}|ClubMembershipApplication\\ClubMembershipApplication.csproj|solutionrelative:clubmembershipapplication\\views\\userregistrationview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82671EE-FC8D-4F00-897D-A64DBA9C5650}|ClubMembershipApplication\\ClubMembershipApplication.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\delegates\\clubmembershipapplication\\clubmembershipapplication\\views\\userloginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82671EE-FC8D-4F00-897D-A64DBA9C5650}|ClubMembershipApplication\\ClubMembershipApplication.csproj|solutionrelative:clubmembershipapplication\\views\\userloginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82671EE-FC8D-4F00-897D-A64DBA9C5650}|ClubMembershipApplication\\ClubMembershipApplication.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\delegates\\clubmembershipapplication\\clubmembershipapplication\\factories\\userfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82671EE-FC8D-4F00-897D-A64DBA9C5650}|ClubMembershipApplication\\ClubMembershipApplication.csproj|solutionrelative:clubmembershipapplication\\factories\\userfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82671EE-FC8D-4F00-897D-A64DBA9C5650}|ClubMembershipApplication\\ClubMembershipApplication.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\delegates\\clubmembershipapplication\\clubmembershipapplication\\factories\\viewfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82671EE-FC8D-4F00-897D-A64DBA9C5650}|ClubMembershipApplication\\ClubMembershipApplication.csproj|solutionrelative:clubmembershipapplication\\factories\\viewfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserLoginView.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\ClubMembershipApplication\\ClubMembershipApplication\\Views\\UserLoginView.cs",
+              "RelativeDocumentMoniker": "ClubMembershipApplication\\Views\\UserLoginView.cs",
+              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\ClubMembershipApplication\\ClubMembershipApplication\\Views\\UserLoginView.cs",
+              "RelativeToolTip": "ClubMembershipApplication\\Views\\UserLoginView.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwDUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T22:05:13.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserWelcomeView.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\ClubMembershipApplication\\ClubMembershipApplication\\Views\\UserWelcomeView.cs",
+              "RelativeDocumentMoniker": "ClubMembershipApplication\\Views\\UserWelcomeView.cs",
+              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\ClubMembershipApplication\\ClubMembershipApplication\\Views\\UserWelcomeView.cs",
+              "RelativeToolTip": "ClubMembershipApplication\\Views\\UserWelcomeView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T22:05:11.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRegistrationView.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\ClubMembershipApplication\\ClubMembershipApplication\\Views\\UserRegistrationView.cs",
+              "RelativeDocumentMoniker": "ClubMembershipApplication\\Views\\UserRegistrationView.cs",
+              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\ClubMembershipApplication\\ClubMembershipApplication\\Views\\UserRegistrationView.cs",
+              "RelativeToolTip": "ClubMembershipApplication\\Views\\UserRegistrationView.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwGkAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T22:05:08.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserFactory.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\ClubMembershipApplication\\ClubMembershipApplication\\Factories\\UserFactory.cs",
+              "RelativeDocumentMoniker": "ClubMembershipApplication\\Factories\\UserFactory.cs",
+              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\ClubMembershipApplication\\ClubMembershipApplication\\Factories\\UserFactory.cs",
+              "RelativeToolTip": "ClubMembershipApplication\\Factories\\UserFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T22:04:56.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ViewFactory.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\ClubMembershipApplication\\ClubMembershipApplication\\Factories\\ViewFactory.cs",
+              "RelativeDocumentMoniker": "ClubMembershipApplication\\Factories\\ViewFactory.cs",
+              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\ClubMembershipApplication\\ClubMembershipApplication\\Factories\\ViewFactory.cs",
+              "RelativeToolTip": "ClubMembershipApplication\\Factories\\ViewFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T22:04:54.586Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
