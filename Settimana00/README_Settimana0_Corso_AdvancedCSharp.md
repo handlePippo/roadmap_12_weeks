@@ -161,3 +161,7 @@ E la cosa piu' bella? Che nonostante sono stanchissimo, ho comunque dedicato 30\
 14/06/2025: Il lavoro prosegue. Anche oggi mi sono presentato, e la giornata è stata abbastanza produttiva.
 
 16/06/2025: Ieri non ho potuto materiale svolgere il corso e presentarmi, perchè sono stato tutto il giorno al pronto soccorso, e appena sono tornato a casa mi sono immediatamente messo a dormire. Non chiudevo occhio da 48h, me lo meritavo. Comunque, da oggi ho ripreso in mano la situazione e ho affermato la coerenza e l'intenzione che ci e voglio continuare a metterci. 
+
+17/06/2025: Ieri c'ero, ma non ho compilato il readmme.
+
+18/06/2025: Oggi non avevo voglia. Ho tergiversato e cercato stimoli altrove. Però alla fine mi sono presentato.. e ho svolto mezz'oretta di corso. Non il top, ma mi sono presentato. Intendo continuare così, anche se mi sembra inutile e di star perdendo tempo, a volte.
