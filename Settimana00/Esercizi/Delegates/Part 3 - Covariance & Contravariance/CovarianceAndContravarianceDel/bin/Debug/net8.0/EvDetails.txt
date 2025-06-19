@@ -1,0 +1,6 @@
+Object type: CovarianceAndContravarianceDel.EvCar
+2 - Toyota Hybrid - Electric
+
+Object type: CovarianceAndContravarianceDel.EvCar
+2 - Toyota Hybrid - Electric
+

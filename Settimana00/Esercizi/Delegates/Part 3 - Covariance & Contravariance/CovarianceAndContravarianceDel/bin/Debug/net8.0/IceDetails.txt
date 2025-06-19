@@ -1,0 +1,6 @@
+Object type: CovarianceAndContravarianceDel.IceCar
+1 - Volvo V40 - Internal Combustion Engine
+
+Object type: CovarianceAndContravarianceDel.IceCar
+1 - Volvo V40 - Internal Combustion Engine
+
