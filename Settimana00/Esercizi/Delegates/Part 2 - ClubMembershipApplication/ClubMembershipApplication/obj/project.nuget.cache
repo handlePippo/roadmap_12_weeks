@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iY5Eo16F9Ac=",
+  "dgSpecHash": "XRUCM8+0HsI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\ClubMembershipApplication\\ClubMembershipApplication\\ClubMembershipApplication.csproj",
+  "projectFilePath": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\Part 2 - ClubMembershipApplication\\ClubMembershipApplication\\ClubMembershipApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\filip\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\filip\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

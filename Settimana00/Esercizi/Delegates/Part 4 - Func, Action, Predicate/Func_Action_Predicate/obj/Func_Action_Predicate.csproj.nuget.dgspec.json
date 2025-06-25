@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\Part 4 - Func, Action, Predicate\\Func_Action_Predicate\\Func_Action_Predicate\\Func_Action_Predicate.csproj": {}
+    "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\Part 4 - Func, Action, Predicate\\Func_Action_Predicate\\Func_Action_Predicate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\Part 4 - Func, Action, Predicate\\Func_Action_Predicate\\Func_Action_Predicate\\Func_Action_Predicate.csproj": {
+    "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\Part 4 - Func, Action, Predicate\\Func_Action_Predicate\\Func_Action_Predicate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\Part 4 - Func, Action, Predicate\\Func_Action_Predicate\\Func_Action_Predicate\\Func_Action_Predicate.csproj",
+        "projectUniqueName": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\Part 4 - Func, Action, Predicate\\Func_Action_Predicate\\Func_Action_Predicate.csproj",
         "projectName": "Func_Action_Predicate",
-        "projectPath": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\Part 4 - Func, Action, Predicate\\Func_Action_Predicate\\Func_Action_Predicate\\Func_Action_Predicate.csproj",
+        "projectPath": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\Part 4 - Func, Action, Predicate\\Func_Action_Predicate\\Func_Action_Predicate.csproj",
         "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\Part 4 - Func, Action, Predicate\\Func_Action_Predicate\\Func_Action_Predicate\\obj\\",
+        "outputPath": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\Part 4 - Func, Action, Predicate\\Func_Action_Predicate\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

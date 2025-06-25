@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Func_Action_Predicate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+151ddabc1ba9aa66a50ccd150cc3acb972da3a4c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa27124196d378804c9f6a6d8b8a9cbd4db516eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Func_Action_Predicate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Func_Action_Predicate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

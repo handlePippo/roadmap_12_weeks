@@ -21,10 +21,9 @@
         public Predicate<TSource> PredicateExample(TSource src) => null!;
 
 
-
-        // Contravariance -> TSource is controvariant in TDestination 
-        public delegate TDest Test<in T, out TDest>(T src) 
-            where T : Animal
+        // Contravariance -> TSrc is controvariant in TDest 
+        public delegate TDest Test<in TSrc, out TDest>(TSrc src) 
+            where TSrc : Animal
             where TDest : class;
 
         public static Test<Animal, string> fromAnimal = a => "It's an animal";
@@ -37,14 +36,7 @@
 
     }
 
-    public class Animal
-    {
-
-    }
-
-    public class Dog : Animal
-    {
-
-    }
+    public class Animal { }
+    public class Dog : Animal { }
 }
 
