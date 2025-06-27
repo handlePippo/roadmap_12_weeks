@@ -1,4 +1,6 @@
-﻿namespace Func_Action_Predicate
+﻿using Func_Action_Predicate;
+
+namespace Func_Action_Predicate
 {
     internal class Program
     {
@@ -33,10 +35,25 @@
         public delegate TDest Factory<out TDest>();
         public static Factory<Dog> createDog = () => new Dog();
         public static Factory<Animal> createAnimal = createDog;
-
     }
 
     public class Animal { }
     public class Dog : Animal { }
 }
 
+
+public class Test
+{
+    public delegate TResult Func<in T, out TResult>(T args);
+
+    public void TestTest()
+    {
+        Func<Animal, string> FuncDel = HandleAnimal;
+        Func<Dog, string> FuncOther = FuncDel;
+    }
+
+    private string MyMethod(Animal s)
+    {
+        return s.GetType().Name;
+    }
+}

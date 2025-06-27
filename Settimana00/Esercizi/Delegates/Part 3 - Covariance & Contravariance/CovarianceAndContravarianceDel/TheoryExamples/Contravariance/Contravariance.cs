@@ -9,7 +9,7 @@
     {
         public static void TestContravariance()
         {
-            // Less derived method's parameter despite the delegates paremeter's type
+            // The associated method has a more generic (less derived) parameter despite the delegates paremeter's type
             MyDelegate1 myDelegate1 = TestContravarianceClass.MyMethod_Contravariance;
             MyDelegate2 myDelegate2 = TestContravarianceClass.MyMethod_Contravariance;
         }
