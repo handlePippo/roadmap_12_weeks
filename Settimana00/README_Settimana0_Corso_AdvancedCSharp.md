@@ -173,3 +173,5 @@ E la cosa piu' bella? Che nonostante sono stanchissimo, ho comunque dedicato 30\
 25/06/2025: Serata ambigua, grigia. Non brutta, non bella. Sicuramente avevo poca voglia. Tante distrazioni, tanta ricerca di piccoli stimoli (dopamine addicted). Però, nel mio piccolo, anche stasera mi sono presentato. Domani voglio rivedere la Covariance e la Contravariance, e proseguire con Func, Action, Predicate. Anche se oggi mi sembra meno sensato di ieri, voglio e devo continuare.
 
 26/06/2025: Anche oggi mi sono presentato. Solo una mezz'ora, dedicata al ripasso di Covariance & Contravariance. E' il mio compleanno ed ho comunque ritagliato mezz'ora al ripasso. Qualcosa dovrà pur significare. Auguri Filì!
+
+27=06/2025: Anche oggi mi sono presentato. Poca voglia. Poco carburante. Poco risultato pratico. Ma mi sono presentato. Domani si punta a far di piu'.
