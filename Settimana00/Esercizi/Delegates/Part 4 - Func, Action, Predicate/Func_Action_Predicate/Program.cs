@@ -1,59 +1,89 @@
-﻿using Func_Action_Predicate;
-
-namespace Func_Action_Predicate
+﻿namespace Func_Action_Predicate
 {
     internal class Program
     {
         static void Main(string[] _)
         {
+            // Func
+            Func<decimal, decimal, decimal> calculateTotalAnnualSalary = (annualSalary, bonusPercentage) => annualSalary + (annualSalary * bonusPercentage / 100);
+
+            // Action
+            Action<int, string, string, decimal, char, bool> displayEmployeeRecords = (arg1, arg2, arg3, arg4, arg5, arg6)
+                => Console.WriteLine($"Id: {arg1}{Environment.NewLine}First Name: {arg2}{Environment.NewLine}Last Name:{arg3}{Environment.NewLine}Salary: {arg4}{Environment.NewLine}Gender: {arg5}{Environment.NewLine}Manager: {arg6}{Environment.NewLine}");
+
+            //Predicate
+            List<Employee> employees = new List<Employee>
+            {
+                new Employee
+                {
+                    Id = 1,
+                    FirstName = "Sarah",
+                    LastName = "Jones",
+                    Salary = calculateTotalAnnualSalary(40000, 2),
+                    Gender = 'F',
+                    Manager = false
+                },
+                new Employee
+                {
+                    Id = 1,
+                    FirstName = "Mark",
+                    LastName = "Slice",
+                    Salary = calculateTotalAnnualSalary(64000, 3),
+                    Gender = 'M',
+                    Manager = true
+                },
+                new Employee
+                {
+                    Id = 1,
+                    FirstName = "Oliver",
+                    LastName = "Benson",
+                    Salary = calculateTotalAnnualSalary(35500, 2),
+                    Gender = 'M',
+                    Manager = false
+                },
+                new Employee
+                {
+                    Id = 1,
+                    FirstName = "Monica",
+                    LastName = "Treccani",
+                    Salary = calculateTotalAnnualSalary(90000, 4),
+                    Gender = 'F',
+                    Manager = true
+                },
+            };
+
+            var employeesFiltered = employees.FilterEmployees(e => e.Salary < 45000);
+            //var employeesFiltered = employees.Where(e => e.Manager == true); // The same with LINQ built-in Where
+            foreach (var filteredEmployee in employeesFiltered)
+            {
+                displayEmployeeRecords(filteredEmployee.Id, filteredEmployee.FirstName, filteredEmployee.LastName, filteredEmployee.Salary, filteredEmployee.Gender, filteredEmployee.Manager);
+            }
 
             Console.ReadLine();
         }
     }
 
-    public class Delegates<TSource, TDestination>
+    public static class Extensions
     {
-        // Func -> 
-        public Func<TSource, TDestination> FuncExample(TSource src) => null!;
-
-        // Action -> 
-        public Action<TSource> ActionExample(TSource src) => null!;
-
-        // Predicate -> 
-        public Predicate<TSource> PredicateExample(TSource src) => null!;
-
-
-        // Contravariance -> TSrc is controvariant in TDest 
-        public delegate TDest Test<in TSrc, out TDest>(TSrc src) 
-            where TSrc : Animal
-            where TDest : class;
-
-        public static Test<Animal, string> fromAnimal = a => "It's an animal";
-        public static Test<Dog, string> fromDog = fromAnimal;
-
-        // TDest is covariant to superclass
-        public delegate TDest Factory<out TDest>();
-        public static Factory<Dog> createDog = () => new Dog();
-        public static Factory<Animal> createAnimal = createDog;
+        public static IEnumerable<Employee> FilterEmployees(this List<Employee> employees, Predicate<Employee> predicate)
+        {
+            foreach (Employee employee in employees)
+            {
+                if (predicate(employee))
+                {
+                    yield return employee;
+                }
+            }
+        }
     }
 
-    public class Animal { }
-    public class Dog : Animal { }
-}
-
-
-public class Test
-{
-    public delegate TResult Func<in T, out TResult>(T args);
-
-    public void TestTest()
+    public sealed record Employee
     {
-        Func<Animal, string> FuncDel = HandleAnimal;
-        Func<Dog, string> FuncOther = FuncDel;
-    }
-
-    private string MyMethod(Animal s)
-    {
-        return s.GetType().Name;
+        public int Id { get; set; }
+        public string FirstName { get; set; } = null!;
+        public string LastName { get; set; } = null!;
+        public decimal Salary { get; set; }
+        public char Gender { get; set; }
+        public bool Manager { get; set; }
     }
 }

@@ -174,4 +174,6 @@ E la cosa piu' bella? Che nonostante sono stanchissimo, ho comunque dedicato 30\
 
 26/06/2025: Anche oggi mi sono presentato. Solo una mezz'ora, dedicata al ripasso di Covariance & Contravariance. E' il mio compleanno ed ho comunque ritagliato mezz'ora al ripasso. Qualcosa dovrà pur significare. Auguri Filì!
 
-27=06/2025: Anche oggi mi sono presentato. Poca voglia. Poco carburante. Poco risultato pratico. Ma mi sono presentato. Domani si punta a far di piu'.
+27/06/2025: Anche oggi mi sono presentato. Poca voglia. Poco carburante. Poco risultato pratico. Ma mi sono presentato. Domani si punta a far di piu'.
+
+28/06/2025: Stamattina mi sono ritagliato quasi 2h per rivedere variance e per terminare la parte su Func, Action e Predicate. Capitolo concluso e si passa alle Callback asincrone. Sono abbastanza soddisfatto. Costanza. Coerenza. Identità. Bravo a me.
