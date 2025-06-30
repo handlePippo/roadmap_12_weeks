@@ -177,3 +177,5 @@ E la cosa piu' bella? Che nonostante sono stanchissimo, ho comunque dedicato 30\
 27/06/2025: Anche oggi mi sono presentato. Poca voglia. Poco carburante. Poco risultato pratico. Ma mi sono presentato. Domani si punta a far di piu'.
 
 28/06/2025: Stamattina mi sono ritagliato quasi 2h per rivedere variance e per terminare la parte su Func, Action e Predicate. Capitolo concluso e si passa alle Callback asincrone. Sono abbastanza soddisfatto. Costanza. Coerenza. Identità. Bravo a me.
+
+30/06/2025: Ieri era domenica, post compleanno. Giornata particolare. Giudizi alti. Poca energia mentale. Però stasera mi sono presentato. Sforzandomi. L'umore non è al massimo.. ma cerco di non mollare. A domani 

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\Part 5 - AsyncCallbackMethods\\AsyncCallbackDNS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73DC42D2-3960-46E5-AF48-9D6AE6278F55}|AsyncCallbackDNS\\AsyncCallbackDNS.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\delegates\\part 5 - asynccallbackmethods\\asynccallbackdns\\asynccallbackdns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73DC42D2-3960-46E5-AF48-9D6AE6278F55}|AsyncCallbackDNS\\AsyncCallbackDNS.csproj|solutionrelative:asynccallbackdns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\Part 5 - AsyncCallbackMethods\\AsyncCallbackDNS\\AsyncCallbackDNS\\Program.cs",
+              "RelativeDocumentMoniker": "AsyncCallbackDNS\\Program.cs",
+              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\Part 5 - AsyncCallbackMethods\\AsyncCallbackDNS\\AsyncCallbackDNS\\Program.cs",
+              "RelativeToolTip": "AsyncCallbackDNS\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T23:14:12.239Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
