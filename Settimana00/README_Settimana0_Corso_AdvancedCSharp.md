@@ -178,4 +178,24 @@ E la cosa piu' bella? Che nonostante sono stanchissimo, ho comunque dedicato 30\
 
 28/06/2025: Stamattina mi sono ritagliato quasi 2h per rivedere variance e per terminare la parte su Func, Action e Predicate. Capitolo concluso e si passa alle Callback asincrone. Sono abbastanza soddisfatto. Costanza. Coerenza. Identità. Bravo a me.
 
-30/06/2025: Ieri era domenica, post compleanno. Giornata particolare. Giudizi alti. Poca energia mentale. Però stasera mi sono presentato. Sforzandomi. L'umore non è al massimo.. ma cerco di non mollare. A domani 
+30/06/2025: Ieri era domenica, post compleanno. Giornata particolare. Giudizi alti. Poca energia mentale. Però stasera mi sono presentato. Sforzandomi. L'umore non è al massimo.. ma cerco di non mollare. A domani
+
+01/07/2025: E anche oggi mi sono presentato. Giornata difficile, ma la coerenza e chi sto diventando sono piu' importanti. Mi forzo ad esserci anche quando non ho voglia, perchè è attraverso la disciplina che costruisco la mia identità tecnica. Oggi ho imparato questo (ed ho concluso il capitolo del corso sui delegati!):
+
+👉 Polimorfismo funziona su istanze di oggetti, non su tipi generici di delegati.
+
+Esempio semplice:
+
+BaseEmployee be = new Employee(); // ✅ Polimorfismo classico
+
+👉 Ma con un delegato generico:
+
+Predicate<Employee> pred1 = e => true;
+Predicate<BaseEmployee> pred2 = pred1; // ❌ ERRORE senza `in` (contravarianza)
+
+Qui il polimorfismo non si applica, perché Predicate<Employee> e Predicate<BaseEmployee> sono tipi diversi e non in relazione ereditaria. Sono due chiusure di un tipo generico, non istanze di oggetti.
+
+👉 Quindi:
+Hai bisogno di contravarianza per dire al compilatore:
+
+“Ehi, puoi usare un Predicate<BaseEmployee> al posto di un Predicate<Employee> perché non fa nulla di pericoloso con T”.

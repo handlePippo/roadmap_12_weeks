@@ -25,8 +25,6 @@ namespace AsyncCallbackDNS
         }
         public static void Main()
         {
-            TestRef.PrintData();
-
             // Create the delegate that will process the results of the
             // asynchronous request.
             AsyncCallback callBack = new AsyncCallback(ProcessDnsInformation);

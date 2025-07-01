@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\Part 3 - Covariance \u0026 Contravariance\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{61026607-0E0E-40C4-8D9D-0307AF8468C3}|CovarianceAndContravarianceDel\\CovarianceAndContravarianceDel.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\delegates\\part 3 - covariance \u0026 contravariance\\covarianceandcontravariancedel\\theory.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{61026607-0E0E-40C4-8D9D-0307AF8468C3}|CovarianceAndContravarianceDel\\CovarianceAndContravarianceDel.csproj|solutionrelative:covarianceandcontravariancedel\\theory.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{61026607-0E0E-40C4-8D9D-0307AF8468C3}|CovarianceAndContravarianceDel\\CovarianceAndContravarianceDel.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\delegates\\part 3 - covariance \u0026 contravariance\\covarianceandcontravariancedel\\theoryexamples\\covariance\\covariance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61026607-0E0E-40C4-8D9D-0307AF8468C3}|CovarianceAndContravarianceDel\\CovarianceAndContravarianceDel.csproj|solutionrelative:covarianceandcontravariancedel\\theoryexamples\\covariance\\covariance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61026607-0E0E-40C4-8D9D-0307AF8468C3}|CovarianceAndContravarianceDel\\CovarianceAndContravarianceDel.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\delegates\\part 3 - covariance \u0026 contravariance\\covarianceandcontravariancedel\\theoryexamples\\contravariance\\contravariance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61026607-0E0E-40C4-8D9D-0307AF8468C3}|CovarianceAndContravarianceDel\\CovarianceAndContravarianceDel.csproj|solutionrelative:covarianceandcontravariancedel\\theoryexamples\\contravariance\\contravariance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61026607-0E0E-40C4-8D9D-0307AF8468C3}|CovarianceAndContravarianceDel\\CovarianceAndContravarianceDel.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\delegates\\part 3 - covariance \u0026 contravariance\\covarianceandcontravariancedel\\theory.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{61026607-0E0E-40C4-8D9D-0307AF8468C3}|CovarianceAndContravarianceDel\\CovarianceAndContravarianceDel.csproj|solutionrelative:covarianceandcontravariancedel\\theory.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61026607-0E0E-40C4-8D9D-0307AF8468C3}|CovarianceAndContravarianceDel\\CovarianceAndContravarianceDel.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\delegates\\part 3 - covariance \u0026 contravariance\\covarianceandcontravariancedel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,12 +39,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Covariance.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\Part 3 - Covariance \u0026 Contravariance\\CovarianceAndContravarianceDel\\TheoryExamples\\Covariance\\Covariance.cs",
+              "RelativeDocumentMoniker": "CovarianceAndContravarianceDel\\TheoryExamples\\Covariance\\Covariance.cs",
+              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\Part 3 - Covariance \u0026 Contravariance\\CovarianceAndContravarianceDel\\TheoryExamples\\Covariance\\Covariance.cs",
+              "RelativeToolTip": "CovarianceAndContravarianceDel\\TheoryExamples\\Covariance\\Covariance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T09:17:36.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Theory.MD",
               "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\Part 3 - Covariance \u0026 Contravariance\\CovarianceAndContravarianceDel\\Theory.MD",
               "RelativeDocumentMoniker": "CovarianceAndContravarianceDel\\Theory.MD",
               "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\Part 3 - Covariance \u0026 Contravariance\\CovarianceAndContravarianceDel\\Theory.MD",
               "RelativeToolTip": "CovarianceAndContravarianceDel\\Theory.MD",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2025-06-27T22:57:12.529Z",
               "EditorCaption": ""
@@ -60,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\Part 3 - Covariance \u0026 Contravariance\\CovarianceAndContravarianceDel\\Program.cs",
               "RelativeDocumentMoniker": "CovarianceAndContravarianceDel\\Program.cs",
@@ -68,12 +85,11 @@
               "RelativeToolTip": "CovarianceAndContravarianceDel\\Program.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAgwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T17:04:59.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T17:04:59.51Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CarFactory.cs",
               "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\Part 3 - Covariance \u0026 Contravariance\\CovarianceAndContravarianceDel\\CarFactory.cs",
               "RelativeDocumentMoniker": "CovarianceAndContravarianceDel\\CarFactory.cs",
@@ -85,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Car.cs",
               "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Delegates\\Part 3 - Covariance \u0026 Contravariance\\CovarianceAndContravarianceDel\\Car.cs",
               "RelativeDocumentMoniker": "CovarianceAndContravarianceDel\\Car.cs",
