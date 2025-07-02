@@ -199,3 +199,5 @@ Qui il polimorfismo non si applica, perché Predicate<Employee> e Predicate<Base
 Hai bisogno di contravarianza per dire al compilatore:
 
 “Ehi, puoi usare un Predicate<BaseEmployee> al posto di un Predicate<Employee> perché non fa nulla di pericoloso con T”.
+
+02/07/2025: Anche oggi mi sono presentato, ma ora stacco. Domani riprendo la lezioni sugli eventi e la porto a termine.
