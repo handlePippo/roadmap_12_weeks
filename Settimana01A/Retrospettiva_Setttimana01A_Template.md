@@ -1,9 +1,10 @@
-# Retrospettiva – Settimana 01
+# Retrospettiva – Settimana 01A
 
 ## ✅ Attività completate
-- [ ] CRUD WebAPI
-- [ ] God Object refactor
-- [ ] Repository base con test
+- [ ] Ciclo HTTP disegnato
+- [ ] Middleware custom
+- [ ] App ASP.NET senza template
+- [ ] DI, IConfiguration, Logging attivati
 
 ## 📊 KPI oggettivi
 - Test coverage: ___%

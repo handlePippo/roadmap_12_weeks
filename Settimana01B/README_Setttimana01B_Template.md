@@ -1,4 +1,4 @@
-# Settimana 01 — Fondamenta: WebAPI, SOLID, Clean Code
+# Settimana 01B — Fondamenta: WebAPI, SOLID, Clean Code
 
 ## 🎯 Obiettivi della settimana
 - Costruire una WebAPI CRUD base
