@@ -1,4 +1,4 @@
-﻿namespace ConsoleApplication3
+﻿namespace ThresholdReachedEventApplication
 {
     class ProgramThree
     {
@@ -15,9 +15,9 @@
             }
         }
 
-        private static void C_ThresholdReached(object sender, ThresholdReachedEventArgs e) 
+        private static void C_ThresholdReached(object sender, ThresholdReachedEventArgs e)
         {
-            Console.WriteLine($"The threshold of {e.Threshold} was reached at {e.TimeReached}.");
+            Console.WriteLine($"The threshold of {e.Threshold} was reached at {e.TimeReached} in the class {sender}.");
             Environment.Exit(0);
         }
     }
@@ -47,10 +47,7 @@
         protected virtual void OnThresholdReached(ThresholdReachedEventArgs e)
         {
             EventHandler<ThresholdReachedEventArgs> handler = ThresholdReached;
-            if (handler != null)
-            {
-                handler(this, e);
-            }
+            handler?.Invoke(this, e);
         }
 
         public event EventHandler<ThresholdReachedEventArgs> ThresholdReached;

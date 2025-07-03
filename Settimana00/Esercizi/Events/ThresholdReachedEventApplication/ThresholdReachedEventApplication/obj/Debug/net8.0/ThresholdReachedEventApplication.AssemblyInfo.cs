@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ThresholdReachedEventApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+347b750b4ce1d9c394a92e85517318efb13ea863")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1819e6d2d48740dd796e63d8049c115fe7c95d84")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThresholdReachedEventApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThresholdReachedEventApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -201,3 +201,5 @@ Hai bisogno di contravarianza per dire al compilatore:
 “Ehi, puoi usare un Predicate<BaseEmployee> al posto di un Predicate<Employee> perché non fa nulla di pericoloso con T”.
 
 02/07/2025: Anche oggi mi sono presentato, ma ora stacco. Domani riprendo la lezioni sugli eventi e la porto a termine.
+
+03/07/2025: Anche oggi mi sono presentato, ed ho ripreso le lezioni di cui parlavo nel punto sopra, concludendo la parte introduttiva sugli Eventi. Non ho nessuna intenzione di mollare, anche se a volte vengo travolto dai dubbi.
