@@ -203,3 +203,5 @@ Hai bisogno di contravarianza per dire al compilatore:
 02/07/2025: Anche oggi mi sono presentato, ma ora stacco. Domani riprendo la lezioni sugli eventi e la porto a termine.
 
 03/07/2025: Anche oggi mi sono presentato, ed ho ripreso le lezioni di cui parlavo nel punto sopra, concludendo la parte introduttiva sugli Eventi. Non ho nessuna intenzione di mollare, anche se a volte vengo travolto dai dubbi.
+
+07/07/2025: Dopo qualche giorno di stop dal corso, rieccomi qua. Sabato mattina giornata dedicata alla call per VertiTraffic, che non so bene a cosa abbia portato. In realtà mi ha lasciato abbastanza perplesso, sopratutto sulla figura del docente Michele. Credo che non continuerò, non mi ha convinto. Sabato sera ho bevuto un po troppo e Domenica l'ho dedicata al relax e alla piscina. Da oggi comunque rieccomi qua. Si torna in pista, anche col morale non troppo alto.
