@@ -1,5 +1,8 @@
-﻿public sealed class TemperatureEventArgs : EventArgs
+﻿namespace ThermostaEventsApp
 {
-    public double Temperature { get; set; }
-    public DateTime CurrentDateTime { get; set; }
+    public sealed class TemperatureEventArgs : EventArgs
+    {
+        public double Temperature { get; set; }
+        public DateTime CurrentDateTime { get; set; }
+    }
 }

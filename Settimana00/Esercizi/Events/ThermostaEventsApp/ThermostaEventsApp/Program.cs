@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using ThermostaEventsApp;
 
 namespace ThermostaEventsApp
 {
@@ -38,7 +39,7 @@ public class HeatSensor : IHeatSensor
     private static readonly object _temperatureFallsBelowWarningLevelKey = new();
     private static readonly object _lockObj = new();
 
-    protected static EventHandlerList listEventDelegates = new EventHandlerList();
+    private static readonly EventHandlerList _listEventDelegates = new EventHandlerList();
 
     private static HeatSensor _instance = null!;
     private HeatSensor(double wLevel, double eLevel)
@@ -47,14 +48,6 @@ public class HeatSensor : IHeatSensor
         _emergencyLevel = eLevel;
 
         SeedData();
-    }
-
-    private void SeedData()
-    {
-        _temperatureData = new double[]
-        {
-            16,17,16.5,18,19,22,24,25.75,28.60,27.90,31,24.30,45,68,86.29
-        };
     }
 
     public static HeatSensor CreateInstance(double wLevel, double eLevel)
@@ -66,17 +59,32 @@ public class HeatSensor : IHeatSensor
         }
     }
 
+    protected void OnTemperatureReachedEmergencyLevel(TemperatureEventArgs e)
+    {
+        GetProperHandler(_temperatureReachesEmergencyLevelKey)?.Invoke(this, e);
+    }
+
+    protected void OnTemperatureReachesWarningLevel(TemperatureEventArgs e)
+    {
+        GetProperHandler(_temperatureReachesWarningLevelKey)?.Invoke(this, e);
+    }
+
+    protected void OnTemperatureFallsBelowWarningLevel(TemperatureEventArgs e)
+    {
+        GetProperHandler(_temperatureFallsBelowWarningLevelKey)?.Invoke(this, e);
+    }
+
     event EventHandler<TemperatureEventArgs> IHeatSensor.TemperatureReachesEmergencyLevelEventHandler
     {
 
         add
         {
-            throw new NotImplementedException();
+            _listEventDelegates.AddHandler(_temperatureReachesEmergencyLevelKey, value);
         }
 
         remove
         {
-            throw new NotImplementedException();
+            _listEventDelegates.RemoveHandler(_temperatureReachesEmergencyLevelKey, value);
         }
     }
 
@@ -84,12 +92,12 @@ public class HeatSensor : IHeatSensor
     {
         add
         {
-            throw new NotImplementedException();
+            _listEventDelegates.AddHandler(_temperatureReachesWarningLevelKey, value);
         }
 
         remove
         {
-            throw new NotImplementedException();
+            _listEventDelegates.RemoveHandler(_temperatureReachesWarningLevelKey, value);
         }
     }
 
@@ -97,12 +105,12 @@ public class HeatSensor : IHeatSensor
     {
         add
         {
-            throw new NotImplementedException();
+            _listEventDelegates.AddHandler(_temperatureFallsBelowWarningLevelKey, value);
         }
 
         remove
         {
-            throw new NotImplementedException();
+            _listEventDelegates.RemoveHandler(_temperatureFallsBelowWarningLevelKey, value);
         }
     }
 
@@ -110,4 +118,14 @@ public class HeatSensor : IHeatSensor
     {
         throw new NotImplementedException();
     }
+
+    private void SeedData()
+    {
+        _temperatureData = new double[]
+        {
+            16,17,16.5,18,19,22,24,25.75,28.60,27.90,31,24.30,45,68,86.29
+        };
+    }
+    private static EventHandler<TemperatureEventArgs>? GetProperHandler(object key) => _listEventDelegates[key] as EventHandler<TemperatureEventArgs>;
+
 }
