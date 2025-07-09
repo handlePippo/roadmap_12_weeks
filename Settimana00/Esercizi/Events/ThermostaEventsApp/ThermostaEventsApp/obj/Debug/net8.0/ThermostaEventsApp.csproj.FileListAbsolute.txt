@@ -1,0 +1,15 @@
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\ThermostaEventsApp\ThermostaEventsApp\bin\Debug\net8.0\ThermostaEventsApp.exe
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\ThermostaEventsApp\ThermostaEventsApp\bin\Debug\net8.0\ThermostaEventsApp.deps.json
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\ThermostaEventsApp\ThermostaEventsApp\bin\Debug\net8.0\ThermostaEventsApp.runtimeconfig.json
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\ThermostaEventsApp\ThermostaEventsApp\bin\Debug\net8.0\ThermostaEventsApp.dll
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\ThermostaEventsApp\ThermostaEventsApp\bin\Debug\net8.0\ThermostaEventsApp.pdb
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\ThermostaEventsApp\ThermostaEventsApp\obj\Debug\net8.0\ThermostaEventsApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\ThermostaEventsApp\ThermostaEventsApp\obj\Debug\net8.0\ThermostaEventsApp.AssemblyInfoInputs.cache
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\ThermostaEventsApp\ThermostaEventsApp\obj\Debug\net8.0\ThermostaEventsApp.AssemblyInfo.cs
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\ThermostaEventsApp\ThermostaEventsApp\obj\Debug\net8.0\ThermostaEventsApp.csproj.CoreCompileInputs.cache
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\ThermostaEventsApp\ThermostaEventsApp\obj\Debug\net8.0\ThermostaEventsApp.sourcelink.json
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\ThermostaEventsApp\ThermostaEventsApp\obj\Debug\net8.0\ThermostaEventsApp.dll
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\ThermostaEventsApp\ThermostaEventsApp\obj\Debug\net8.0\refint\ThermostaEventsApp.dll
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\ThermostaEventsApp\ThermostaEventsApp\obj\Debug\net8.0\ThermostaEventsApp.pdb
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\ThermostaEventsApp\ThermostaEventsApp\obj\Debug\net8.0\ThermostaEventsApp.genruntimeconfig.cache
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\ThermostaEventsApp\ThermostaEventsApp\obj\Debug\net8.0\ref\ThermostaEventsApp.dll

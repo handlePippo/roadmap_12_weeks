@@ -1,5 +1,4 @@
-﻿using System.ComponentModel;
-using ThermostaEventsApp;
+﻿using ThermostaEventsApp;
 
 namespace ThermostaEventsApp
 {
@@ -11,121 +10,78 @@ namespace ThermostaEventsApp
     }
 }
 
-public interface IHeatSensor
+public interface IDevice
 {
-    event EventHandler<TemperatureEventArgs> TemperatureReachesEmergencyLevelEventHandler;
-    event EventHandler<TemperatureEventArgs> TemperatureReachesWarningLevelEventHandler;
-    event EventHandler<TemperatureEventArgs> TemperatureFallsBelowWarningLevelEventHandler;
-    void RunHeatSensor();
+    void RunDevice();
+    void HandleEmergency();
+}
+public interface IThermostat
+{
+    void RunThermostat();
 }
 
-public class HeatSensor : IHeatSensor
+public class Thermostat : IThermostat
 {
-    private static double _warningLevel = default;
-    private static double _emergencyLevel = default;
-    private static bool _hasReachedWarningTemperature = default;
-    private static double[] _temperatureData = default!;
+    private readonly ICoolingMechanism _coolingMechanism = null!;
+    private readonly IHeatSensor _heatSensor = null!;
+    private readonly IDevice _device = null!;
 
-    public double this[int temperature]
+    private const double WarningLevel = 27;
+    private const double EmergencyLevel = 75;
+
+    public Thermostat(IDevice device, IHeatSensor heatSensor, ICoolingMechanism coolingMechanism)
     {
-        get
-        {
-            return _temperatureData.Where(t => t == temperature).FirstOrDefault();
-        }
+        _device = device;
+        _heatSensor = heatSensor;
+        _coolingMechanism = coolingMechanism;
     }
 
-    private static readonly object _temperatureReachesWarningLevelKey = new();
-    private static readonly object _temperatureReachesEmergencyLevelKey = new();
-    private static readonly object _temperatureFallsBelowWarningLevelKey = new();
-    private static readonly object _lockObj = new();
-
-    private static readonly EventHandlerList _listEventDelegates = new EventHandlerList();
-
-    private static HeatSensor _instance = null!;
-    private HeatSensor(double wLevel, double eLevel)
+    private void WireUpEventsToEventHandlers()
     {
-        _warningLevel = wLevel;
-        _emergencyLevel = eLevel;
-
-        SeedData();
+        _heatSensor.TemperatureReachesWarningLevelEventHandler += HeatSensor_TemperatureReachesWarningLevelEventHandler;
+        _heatSensor.TemperatureReachesEmergencyLevelEventHandler += HeatSensor_TemperatureReachesEmergencyLevelEventHandler;
+        _heatSensor.TemperatureFallsBelowWarningLevelEventHandler += HeatSensor_TemperatureFallsBelowWarningLevelEventHandler;
     }
 
-    public static HeatSensor CreateInstance(double wLevel, double eLevel)
+    private void HeatSensor_TemperatureReachesWarningLevelEventHandler(object? sender, TemperatureEventArgs e)
     {
-        lock (_lockObj)
-        {
-            _instance ??= new HeatSensor(wLevel, eLevel);
-            return _instance;
-        }
+        throw new NotImplementedException();
     }
-
-    protected void OnTemperatureReachedEmergencyLevel(TemperatureEventArgs e)
-    {
-        GetProperHandler(_temperatureReachesEmergencyLevelKey)?.Invoke(this, e);
-    }
-
-    protected void OnTemperatureReachesWarningLevel(TemperatureEventArgs e)
-    {
-        GetProperHandler(_temperatureReachesWarningLevelKey)?.Invoke(this, e);
-    }
-
-    protected void OnTemperatureFallsBelowWarningLevel(TemperatureEventArgs e)
-    {
-        GetProperHandler(_temperatureFallsBelowWarningLevelKey)?.Invoke(this, e);
-    }
-
-    event EventHandler<TemperatureEventArgs> IHeatSensor.TemperatureReachesEmergencyLevelEventHandler
-    {
-
-        add
-        {
-            _listEventDelegates.AddHandler(_temperatureReachesEmergencyLevelKey, value);
-        }
-
-        remove
-        {
-            _listEventDelegates.RemoveHandler(_temperatureReachesEmergencyLevelKey, value);
-        }
-    }
-
-    event EventHandler<TemperatureEventArgs> IHeatSensor.TemperatureReachesWarningLevelEventHandler
-    {
-        add
-        {
-            _listEventDelegates.AddHandler(_temperatureReachesWarningLevelKey, value);
-        }
-
-        remove
-        {
-            _listEventDelegates.RemoveHandler(_temperatureReachesWarningLevelKey, value);
-        }
-    }
-
-    event EventHandler<TemperatureEventArgs> IHeatSensor.TemperatureFallsBelowWarningLevelEventHandler
-    {
-        add
-        {
-            _listEventDelegates.AddHandler(_temperatureFallsBelowWarningLevelKey, value);
-        }
-
-        remove
-        {
-            _listEventDelegates.RemoveHandler(_temperatureFallsBelowWarningLevelKey, value);
-        }
-    }
-
-    public void RunHeatSensor()
+    private void HeatSensor_TemperatureReachesEmergencyLevelEventHandler(object? sender, TemperatureEventArgs e)
     {
         throw new NotImplementedException();
     }
 
-    private void SeedData()
+    private void HeatSensor_TemperatureFallsBelowWarningLevelEventHandler(object? sender, TemperatureEventArgs e)
     {
-        _temperatureData = new double[]
-        {
-            16,17,16.5,18,19,22,24,25.75,28.60,27.90,31,24.30,45,68,86.29
-        };
+        throw new NotImplementedException();
     }
-    private static EventHandler<TemperatureEventArgs>? GetProperHandler(object key) => _listEventDelegates[key] as EventHandler<TemperatureEventArgs>;
 
+    public void RunThermostat()
+    {
+        throw new NotImplementedException();
+    }
+}
+
+public interface ICoolingMechanism
+{
+    void On();
+    void Off();
+}
+
+public class CoolingMechanism : ICoolingMechanism
+{
+    public void Off()
+    {
+        Console.WriteLine();
+        Console.WriteLine("Switching cooling mechanism OFF..");
+        Console.WriteLine();
+    }
+
+    public void On()
+    {
+        Console.WriteLine();
+        Console.WriteLine("Switching cooling mechanism ON..");
+        Console.WriteLine();
+    }
 }

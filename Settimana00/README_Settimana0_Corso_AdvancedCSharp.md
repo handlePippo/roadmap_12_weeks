@@ -207,3 +207,5 @@ Hai bisogno di contravarianza per dire al compilatore:
 07/07/2025: Dopo qualche giorno di stop dal corso, rieccomi qua. Sabato mattina giornata dedicata alla call per VertiTraffic, che non so bene a cosa abbia portato. In realtà mi ha lasciato abbastanza perplesso, sopratutto sulla figura del docente Michele. Credo che non continuerò, non mi ha convinto. Sabato sera ho bevuto un po troppo e Domenica l'ho dedicata al relax e alla piscina. Da oggi comunque rieccomi qua. Si torna in pista, anche col morale non troppo alto.
 
 08/07/2025: Anche stasera eccomi qua. Nonostante sto male ed ho un po di febbre. Fatto poco, ma fatto.. questo è quello che conta allo scopo di costruire la mia identità tecnica.
+
+09/07/2025: Anche stasera eccomi. Non in forma. Decisamente non in forma. Un po in lotta con me stesso per via dello sgarro di mercoledì.. ma sai che c'è? Mi andava ed avevo bisogno di staccare. Zero sensi di colpa, è giusto così e si riparte da domani super carichi. Bene che comunque sono andato avanti una 20ina di minuti con l'esercizio del Termostato.
