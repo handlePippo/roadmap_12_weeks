@@ -142,7 +142,7 @@ public class HeatSensor : IHeatSensor
         }
     }
 
-    private void SeedData()
+    private static void SeedData()
     {
         _temperatureData = new double[]
         {
