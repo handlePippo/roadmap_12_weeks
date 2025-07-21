@@ -7,16 +7,12 @@
       "RelativeMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|solutionrelative:thermostaeventsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\thermostaeventsapp\\thermostaeventsapp\\heatsensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|solutionrelative:thermostaeventsapp\\heatsensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\thermostaeventsapp\\thermostaeventsapp\\heatsensor\\heatsensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|solutionrelative:thermostaeventsapp\\heatsensor\\heatsensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\thermostaeventsapp\\thermostaeventsapp\\iheatsensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|solutionrelative:thermostaeventsapp\\iheatsensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\thermostaeventsapp\\thermostaeventsapp\\temperatureeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|solutionrelative:thermostaeventsapp\\temperatureeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\thermostaeventsapp\\thermostaeventsapp\\thermostat\\thermostat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|solutionrelative:thermostaeventsapp\\thermostat\\thermostat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,15 +26,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TemperatureEventArgs.cs",
-              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\ThermostaEventsApp\\ThermostaEventsApp\\TemperatureEventArgs.cs",
-              "RelativeDocumentMoniker": "ThermostaEventsApp\\TemperatureEventArgs.cs",
-              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\ThermostaEventsApp\\ThermostaEventsApp\\TemperatureEventArgs.cs",
-              "RelativeToolTip": "ThermostaEventsApp\\TemperatureEventArgs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Thermostat.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\ThermostaEventsApp\\ThermostaEventsApp\\Thermostat\\Thermostat.cs",
+              "RelativeDocumentMoniker": "ThermostaEventsApp\\Thermostat\\Thermostat.cs",
+              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\ThermostaEventsApp\\ThermostaEventsApp\\Thermostat\\Thermostat.cs",
+              "RelativeToolTip": "ThermostaEventsApp\\Thermostat\\Thermostat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T19:57:51.956Z",
+              "WhenOpened": "2025-07-21T22:29:06.68Z",
               "EditorCaption": ""
             },
             {
@@ -49,7 +45,7 @@
               "RelativeDocumentMoniker": "ThermostaEventsApp\\Program.cs",
               "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\ThermostaEventsApp\\ThermostaEventsApp\\Program.cs",
               "RelativeToolTip": "ThermostaEventsApp\\Program.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAuwEoAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-07T21:35:27.451Z",
               "EditorCaption": ""
@@ -62,43 +58,30 @@
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
-        "Id": "238d696c-d7c9-4971-a29c-890129c10dc8",
+        "Id": "340f9a4e-abb5-466e-9b15-85b1d5aed6a8",
         "Display": 1,
-        "X": 760,
+        "X": 353,
         "Y": 81,
-        "Width": 1165,
+        "Width": 1572,
         "Height": 1004,
         "WindowState": 2
       },
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IHeatSensor.cs",
-              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\ThermostaEventsApp\\ThermostaEventsApp\\IHeatSensor.cs",
-              "RelativeDocumentMoniker": "ThermostaEventsApp\\IHeatSensor.cs",
-              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\ThermostaEventsApp\\ThermostaEventsApp\\IHeatSensor.cs",
-              "RelativeToolTip": "ThermostaEventsApp\\IHeatSensor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T22:51:38.138Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "HeatSensor.cs",
-              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\ThermostaEventsApp\\ThermostaEventsApp\\HeatSensor.cs",
-              "RelativeDocumentMoniker": "ThermostaEventsApp\\HeatSensor.cs",
-              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\ThermostaEventsApp\\ThermostaEventsApp\\HeatSensor.cs",
-              "RelativeToolTip": "ThermostaEventsApp\\HeatSensor.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAnwCMAAAAFAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\ThermostaEventsApp\\ThermostaEventsApp\\HeatSensor\\HeatSensor.cs",
+              "RelativeDocumentMoniker": "ThermostaEventsApp\\HeatSensor\\HeatSensor.cs",
+              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\ThermostaEventsApp\\ThermostaEventsApp\\HeatSensor\\HeatSensor.cs",
+              "RelativeToolTip": "ThermostaEventsApp\\HeatSensor\\HeatSensor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T21:39:10.126Z",
+              "WhenOpened": "2025-07-21T22:24:45.873Z",
               "EditorCaption": ""
             }
           ]

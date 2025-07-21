@@ -1,4 +1,4 @@
-﻿using ThermostaEventsApp;
+﻿using ThermostaEventsApp.Models;
 
 public interface IHeatSensor
 {

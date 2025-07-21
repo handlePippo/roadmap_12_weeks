@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel;
-using ThermostaEventsApp;
+using ThermostaEventsApp.Models;
 
 public class HeatSensor : IHeatSensor
 {
@@ -130,6 +130,7 @@ public class HeatSensor : IHeatSensor
             }
             else if(temperature < _warningLevel && _hasReachedWarningTemperature)
             {
+                _hasReachedWarningTemperature = false;
                 TemperatureEventArgs e = new TemperatureEventArgs
                 {
                     Temperature = temperature,

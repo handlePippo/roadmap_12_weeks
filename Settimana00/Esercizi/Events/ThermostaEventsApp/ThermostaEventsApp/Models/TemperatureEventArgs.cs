@@ -1,4 +1,4 @@
-﻿namespace ThermostaEventsApp
+﻿namespace ThermostaEventsApp.Models
 {
     public sealed class TemperatureEventArgs : EventArgs
     {
