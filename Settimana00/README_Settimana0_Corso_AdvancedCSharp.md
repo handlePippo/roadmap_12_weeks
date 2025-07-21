@@ -211,3 +211,5 @@ Hai bisogno di contravarianza per dire al compilatore:
 09/07/2025: Anche stasera eccomi. Non in forma. Decisamente non in forma. Un po in lotta con me stesso per via dello sgarro di mercoledì.. ma sai che c'è? Mi andava ed avevo bisogno di staccare. Zero sensi di colpa, è giusto così e si riparte da domani super carichi. Bene che comunque sono andato avanti una 20ina di minuti con l'esercizio del Termostato.
 
 10/07/2025: Demotivato. Fatto molto poco, mi sono presentato solo per coerenza e per non interrompere il flow. Fatti 15 minuti al massimo.
+
+22/07/2025: E' successo. Ho allenato la presa per 12 giorni. Sono stato distratto da diverse situazioni e da una frequentazione. Ma ora ci sono. Torno sul pezzo, anche se è difficile.
