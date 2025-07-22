@@ -1,5 +1,13 @@
 ﻿public class CoolingMechanism : ICoolingMechanism
 {
+    private static Action _decreaseTemperatureCallback = null!;
+    private const int MaxTemperatureDecreasing = 3;
+    private int _maxTemperatureDecreasingCounter = 0;
+    public CoolingMechanism(Action decreaseTemperatureCallback)
+    {
+        _decreaseTemperatureCallback = decreaseTemperatureCallback;
+    }
+
     public void Off()
     {
         Console.WriteLine();
@@ -12,5 +20,10 @@
         Console.WriteLine();
         Console.WriteLine("Switching cooling mechanism ON..");
         Console.WriteLine();
+        if (_maxTemperatureDecreasingCounter <= MaxTemperatureDecreasing)
+        {
+            _decreaseTemperatureCallback();
+            _maxTemperatureDecreasingCounter++;
+        }
     }
 }

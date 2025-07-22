@@ -41,7 +41,7 @@ public class HeatSensor : IHeatSensor
         }
     }
 
-    protected void OnTemperatureReachedEmergencyLevel(TemperatureEventArgs e)
+    protected void OnTemperatureReachesEmergencyLevel(TemperatureEventArgs e)
     {
         GetProperHandler(_temperatureReachesEmergencyLevelKey)?.Invoke(this, e);
     }
@@ -96,6 +96,12 @@ public class HeatSensor : IHeatSensor
         }
     }
 
+    private bool _hasDecreaseTemperatureRequest = false;
+    public void DecreaseTemperature()
+    {
+        _hasDecreaseTemperatureRequest = true;
+    }
+
     public void RunHeatSensor()
     {
         Console.WriteLine("Heat sensor is running...");
@@ -104,21 +110,23 @@ public class HeatSensor : IHeatSensor
 
     private void MonitorTemperature()
     {
-        foreach(double temperature in _temperatureData)
+        for (int i = 0; i < _temperatureData.Length; i++)
         {
+            var temperature = _temperatureData[i];
+
             Console.ResetColor();
             Console.WriteLine($"DateTime: {DateTime.Now} - Temperature: {temperature}");
 
-            if(temperature >= _emergencyLevel)
+            if (temperature >= _emergencyLevel)
             {
                 TemperatureEventArgs e = new TemperatureEventArgs
                 {
                     Temperature = temperature,
                     CurrentDateTime = DateTime.Now
                 };
-                OnTemperatureReachedEmergencyLevel(e);
+                OnTemperatureReachesEmergencyLevel(e);
             }
-            else if(temperature >= _warningLevel)
+            else if (temperature >= _warningLevel)
             {
                 _hasReachedWarningTemperature = true;
                 TemperatureEventArgs e = new TemperatureEventArgs
@@ -126,9 +134,14 @@ public class HeatSensor : IHeatSensor
                     Temperature = temperature,
                     CurrentDateTime = DateTime.Now
                 };
-                OnTemperatureFallsBelowWarningLevel(e);
+                if (_hasDecreaseTemperatureRequest)
+                {
+                    i -= new Random().Next(1, 4);
+                    _hasDecreaseTemperatureRequest = false;
+                }
+                OnTemperatureReachesWarningLevel(e);
             }
-            else if(temperature < _warningLevel && _hasReachedWarningTemperature)
+            else if (temperature < _warningLevel && _hasReachedWarningTemperature)
             {
                 _hasReachedWarningTemperature = false;
                 TemperatureEventArgs e = new TemperatureEventArgs

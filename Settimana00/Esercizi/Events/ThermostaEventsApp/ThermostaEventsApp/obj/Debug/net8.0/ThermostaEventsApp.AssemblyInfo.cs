@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ThermostaEventsApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba86740389b2ce2166f000ac0b63daf18b424de3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae189238e32e59161d6323cc9dbff170cc302f50")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThermostaEventsApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThermostaEventsApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

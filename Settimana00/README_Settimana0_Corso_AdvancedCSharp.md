@@ -213,3 +213,5 @@ Hai bisogno di contravarianza per dire al compilatore:
 10/07/2025: Demotivato. Fatto molto poco, mi sono presentato solo per coerenza e per non interrompere il flow. Fatti 15 minuti al massimo.
 
 22/07/2025: E' successo. Ho allenato la presa per 12 giorni. Sono stato distratto da diverse situazioni e da una frequentazione. Ma ora ci sono. Torno sul pezzo, anche se è difficile.
+
+23/07/2025: Non ho molto da dire, se non che con ansia e difficoltà percepite, sono comunque qui. Qualcosa ho fatto.
