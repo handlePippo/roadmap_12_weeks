@@ -115,7 +115,7 @@ public class HeatSensor : IHeatSensor
             var temperature = _temperatureData[i];
 
             Console.ResetColor();
-            Console.WriteLine($"DateTime: {DateTime.Now} - Temperature: {temperature}");
+            Console.WriteLine($"DateTime: {DateTime.Now} - Current Temperature: {temperature}");
 
             if (temperature >= _emergencyLevel)
             {
@@ -136,8 +136,9 @@ public class HeatSensor : IHeatSensor
                 };
                 if (_hasDecreaseTemperatureRequest)
                 {
-                    i -= new Random().Next(1, 4);
+                    i = new Random().Next(0, 3);
                     _hasDecreaseTemperatureRequest = false;
+                    continue;
                 }
                 OnTemperatureReachesWarningLevel(e);
             }
@@ -160,7 +161,7 @@ public class HeatSensor : IHeatSensor
     {
         _temperatureData = new double[]
         {
-            16,17,16.5,18,19,22,24,25.75,28.60,27.90,31,24.30,45,68,86.29
+            16,17,16.5,18,19,22,24,25.75,28.60,29.95,31,45,46,68,86.29
         };
     }
 

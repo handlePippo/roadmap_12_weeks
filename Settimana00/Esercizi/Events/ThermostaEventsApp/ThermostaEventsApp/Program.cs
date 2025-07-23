@@ -6,8 +6,7 @@ namespace ThermostaEventsApp
     {
         static void Main(string[] _)
         {
-            IDevice device = new Device();
-            device.RunDevice();
+            new Device().RunDevice();
         }
     }
 }

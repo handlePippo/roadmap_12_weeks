@@ -1,35 +1,38 @@
-﻿using ThermostaEventsApp.Devices;
+﻿using ThermostaEventsApp.CoolingMechanisms;
 using ThermostaEventsApp.Thermostats;
 
-public sealed class Device : IDevice
+namespace ThermostaEventsApp.Devices
 {
-    private const double WarningLevel = 27;
-    private const double EmergencyLevel = 74;
-
-    public double WarningTemperatureLevel => WarningLevel;
-    public double EmergencyTemperatureLevel => EmergencyLevel;
-
-    public void HandleEmergency()
+    public sealed class Device : IDevice
     {
-        Console.WriteLine();
-        Console.WriteLine("Emergency handled! Sending out notifications to emergency services personal...");
-        ShutdownDevice();
-        Console.WriteLine();
-    }
+        private const double WarningLevel = 27;
+        private const double EmergencyLevel = 74;
 
-    private void ShutdownDevice()
-    {
-        Console.WriteLine("Shutting down the device...");
-    }
+        public double WarningTemperatureLevel => WarningLevel;
+        public double EmergencyTemperatureLevel => EmergencyLevel;
 
-    public void RunDevice()
-    {
-        Console.WriteLine("Device is running...");
+        public void HandleEmergency()
+        {
+            Console.WriteLine();
+            Console.WriteLine("Emergency handled! Sending out notifications to emergency services personal...");
+            ShutdownDevice();
+            Console.WriteLine();
+        }
 
-        IHeatSensor heatSensor = HeatSensor.CreateInstance(WarningTemperatureLevel, EmergencyTemperatureLevel);
-        var callback = new Action(heatSensor.DecreaseTemperature);
-        ICoolingMechanism coolingMechanism = new CoolingMechanism(callback);
-        IThermostat thermostat = new Thermostat(this, heatSensor, coolingMechanism);
-        thermostat.RunThermostat();
+        private void ShutdownDevice()
+        {
+            Console.WriteLine("Shutting down the device...");
+        }
+
+        public void RunDevice()
+        {
+            Console.WriteLine("Device is running...");
+
+            IHeatSensor heatSensor = HeatSensor.CreateInstance(WarningTemperatureLevel, EmergencyTemperatureLevel);
+            var callback = new Action(heatSensor.DecreaseTemperature);
+            ICoolingMechanism coolingMechanism = new CoolingMechanism(callback);
+            IThermostat thermostat = new Thermostat(this, heatSensor, coolingMechanism);
+            thermostat.RunThermostat();
+        }
     }
 }

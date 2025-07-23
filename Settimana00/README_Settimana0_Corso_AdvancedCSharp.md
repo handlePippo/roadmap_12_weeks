@@ -215,3 +215,6 @@ Hai bisogno di contravarianza per dire al compilatore:
 22/07/2025: E' successo. Ho allenato la presa per 12 giorni. Sono stato distratto da diverse situazioni e da una frequentazione. Ma ora ci sono. Torno sul pezzo, anche se è difficile.
 
 23/07/2025: Non ho molto da dire, se non che con ansia e difficoltà percepite, sono comunque qui. Qualcosa ho fatto.
+
+24/07/2025: Anche oggi eccomi. Fatto quanto? Forse mezz'oretta scarsa.. ma mi sono presentato. Con poca voglia. Con poca motivazione. Con diversi pensieri in testa che mi urlano di lasciar perdere.
+Comunque, eccomi qua.. esercizio sul Termostato completato.

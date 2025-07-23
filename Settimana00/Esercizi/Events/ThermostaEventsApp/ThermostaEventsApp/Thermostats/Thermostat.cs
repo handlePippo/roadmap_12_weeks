@@ -1,4 +1,5 @@
-﻿using ThermostaEventsApp.Devices;
+﻿using ThermostaEventsApp.CoolingMechanisms;
+using ThermostaEventsApp.Devices;
 using ThermostaEventsApp.Models;
 using ThermostaEventsApp.Thermostats;
 
