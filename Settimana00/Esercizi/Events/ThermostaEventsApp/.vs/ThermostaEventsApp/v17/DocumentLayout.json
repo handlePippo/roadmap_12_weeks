@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\ThermostaEventsApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\thermostaeventsapp\\thermostaeventsapp\\devices\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|solutionrelative:thermostaeventsapp\\devices\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\thermostaeventsapp\\thermostaeventsapp\\heatsensors\\heatsensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|solutionrelative:thermostaeventsapp\\heatsensors\\heatsensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\thermostaeventsapp\\thermostaeventsapp\\heatsensors\\iheatsensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|solutionrelative:thermostaeventsapp\\heatsensors\\iheatsensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\thermostaeventsapp\\thermostaeventsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|solutionrelative:thermostaeventsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\thermostaeventsapp\\thermostaeventsapp\\coolingmechanisms\\coolingmechanism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|solutionrelative:thermostaeventsapp\\coolingmechanisms\\coolingmechanism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\thermostaeventsapp\\thermostaeventsapp\\thermostats\\thermostat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|solutionrelative:thermostaeventsapp\\thermostats\\thermostat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\thermostaeventsapp\\thermostaeventsapp\\devices\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|solutionrelative:thermostaeventsapp\\devices\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\thermostaeventsapp\\thermostaeventsapp\\heatsensors\\iheatsensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|solutionrelative:thermostaeventsapp\\heatsensors\\iheatsensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\thermostaeventsapp\\thermostaeventsapp\\devices\\idevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\thermostaeventsapp\\thermostaeventsapp\\coolingmechanisms\\icoolingmechanism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|solutionrelative:thermostaeventsapp\\coolingmechanisms\\icoolingmechanism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\thermostaeventsapp\\thermostaeventsapp\\coolingmechanisms\\coolingmechanism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|solutionrelative:thermostaeventsapp\\coolingmechanisms\\coolingmechanism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\thermostaeventsapp\\thermostaeventsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2261A2FA-E8A1-43FF-8156-32E5FA22A316}|ThermostaEventsApp\\ThermostaEventsApp.csproj|solutionrelative:thermostaeventsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,24 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "IHeatSensor.cs",
               "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\ThermostaEventsApp\\ThermostaEventsApp\\HeatSensors\\IHeatSensor.cs",
               "RelativeDocumentMoniker": "ThermostaEventsApp\\HeatSensors\\IHeatSensor.cs",
               "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\ThermostaEventsApp\\ThermostaEventsApp\\HeatSensors\\IHeatSensor.cs",
               "RelativeToolTip": "ThermostaEventsApp\\HeatSensors\\IHeatSensor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-23T22:46:20.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "IDevice.cs",
               "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\ThermostaEventsApp\\ThermostaEventsApp\\Devices\\IDevice.cs",
               "RelativeDocumentMoniker": "ThermostaEventsApp\\Devices\\IDevice.cs",
@@ -67,12 +67,11 @@
               "RelativeToolTip": "ThermostaEventsApp\\Devices\\IDevice.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T22:46:05.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T22:46:05.262Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ICoolingMechanism.cs",
               "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\ThermostaEventsApp\\ThermostaEventsApp\\CoolingMechanisms\\ICoolingMechanism.cs",
               "RelativeDocumentMoniker": "ThermostaEventsApp\\CoolingMechanisms\\ICoolingMechanism.cs",
@@ -80,12 +79,11 @@
               "RelativeToolTip": "ThermostaEventsApp\\CoolingMechanisms\\ICoolingMechanism.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T22:45:44.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T22:45:44.974Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\ThermostaEventsApp\\ThermostaEventsApp\\Program.cs",
               "RelativeDocumentMoniker": "ThermostaEventsApp\\Program.cs",
@@ -98,26 +96,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Device.cs",
               "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\ThermostaEventsApp\\ThermostaEventsApp\\Devices\\Device.cs",
               "RelativeDocumentMoniker": "ThermostaEventsApp\\Devices\\Device.cs",
               "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\ThermostaEventsApp\\ThermostaEventsApp\\Devices\\Device.cs",
               "RelativeToolTip": "ThermostaEventsApp\\Devices\\Device.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAewCUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-23T22:39:15.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "CoolingMechanism.cs",
               "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\ThermostaEventsApp\\ThermostaEventsApp\\CoolingMechanisms\\CoolingMechanism.cs",
               "RelativeDocumentMoniker": "ThermostaEventsApp\\CoolingMechanisms\\CoolingMechanism.cs",
               "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\ThermostaEventsApp\\ThermostaEventsApp\\CoolingMechanisms\\CoolingMechanism.cs",
               "RelativeToolTip": "ThermostaEventsApp\\CoolingMechanisms\\CoolingMechanism.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-23T22:34:18.021Z",
               "EditorCaption": ""
@@ -130,20 +128,20 @@
               "RelativeDocumentMoniker": "ThermostaEventsApp\\Thermostats\\Thermostat.cs",
               "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\ThermostaEventsApp\\ThermostaEventsApp\\Thermostats\\Thermostat.cs",
               "RelativeToolTip": "ThermostaEventsApp\\Thermostats\\Thermostat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-23T22:34:12.194Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "HeatSensor.cs",
               "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\ThermostaEventsApp\\ThermostaEventsApp\\HeatSensors\\HeatSensor.cs",
               "RelativeDocumentMoniker": "ThermostaEventsApp\\HeatSensors\\HeatSensor.cs",
               "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\ThermostaEventsApp\\ThermostaEventsApp\\HeatSensors\\HeatSensor.cs",
               "RelativeToolTip": "ThermostaEventsApp\\HeatSensors\\HeatSensor.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAcwDIAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-23T22:29:14.127Z",
               "EditorCaption": ""

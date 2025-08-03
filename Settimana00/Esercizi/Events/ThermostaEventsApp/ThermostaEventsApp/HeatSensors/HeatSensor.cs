@@ -6,6 +6,7 @@ public class HeatSensor : IHeatSensor
     private static double _warningLevel = default;
     private static double _emergencyLevel = default;
     private static bool _hasReachedWarningTemperature = default;
+    private static bool _hasDecreaseTemperatureRequest = false;
     private static double[] _temperatureData = default!;
 
     public double this[double temperature]
@@ -96,7 +97,6 @@ public class HeatSensor : IHeatSensor
         }
     }
 
-    private bool _hasDecreaseTemperatureRequest = false;
     public void DecreaseTemperature()
     {
         _hasDecreaseTemperatureRequest = true;
@@ -112,12 +112,21 @@ public class HeatSensor : IHeatSensor
     {
         for (int i = 0; i < _temperatureData.Length; i++)
         {
-            var temperature = _temperatureData[i];
+            double temperature = _temperatureData[i];
+            bool temperatureReachesEmergencyLevel = temperature >= _emergencyLevel;
+            bool temperatureReachesWarningLevel = temperature >= _warningLevel;
+            bool temperatureFallsBelowWarningLevelAndHasReachedWarningTemperature = temperature < _warningLevel && _hasReachedWarningTemperature;
 
             Console.ResetColor();
-            Console.WriteLine($"DateTime: {DateTime.Now} - Current Temperature: {temperature}");
 
-            if (temperature >= _emergencyLevel)
+            if (!temperatureReachesEmergencyLevel &&
+                !temperatureReachesWarningLevel &&
+                !temperatureFallsBelowWarningLevelAndHasReachedWarningTemperature)
+            {
+                Console.WriteLine($"DateTime: {DateTime.Now} - Current Temperature: {temperature}");
+            }
+
+            if (temperatureReachesEmergencyLevel)
             {
                 TemperatureEventArgs e = new TemperatureEventArgs
                 {
@@ -126,23 +135,25 @@ public class HeatSensor : IHeatSensor
                 };
                 OnTemperatureReachesEmergencyLevel(e);
             }
-            else if (temperature >= _warningLevel)
+            else if (temperatureReachesWarningLevel)
             {
                 _hasReachedWarningTemperature = true;
+
+                if (_hasDecreaseTemperatureRequest)
+                {
+                    HandleCoolingRequest(ref i);
+                    continue;
+                }
+
                 TemperatureEventArgs e = new TemperatureEventArgs
                 {
                     Temperature = temperature,
                     CurrentDateTime = DateTime.Now
                 };
-                if (_hasDecreaseTemperatureRequest)
-                {
-                    i = new Random().Next(0, 3);
-                    _hasDecreaseTemperatureRequest = false;
-                    continue;
-                }
+
                 OnTemperatureReachesWarningLevel(e);
             }
-            else if (temperature < _warningLevel && _hasReachedWarningTemperature)
+            else if (temperatureFallsBelowWarningLevelAndHasReachedWarningTemperature)
             {
                 _hasReachedWarningTemperature = false;
                 TemperatureEventArgs e = new TemperatureEventArgs
@@ -155,6 +166,12 @@ public class HeatSensor : IHeatSensor
 
             Thread.Sleep(1000);
         }
+    }
+
+    private static void HandleCoolingRequest(ref int i)
+    {
+        i = new Random().Next(0, 3);
+        _hasDecreaseTemperatureRequest = false;
     }
 
     private static void SeedData()

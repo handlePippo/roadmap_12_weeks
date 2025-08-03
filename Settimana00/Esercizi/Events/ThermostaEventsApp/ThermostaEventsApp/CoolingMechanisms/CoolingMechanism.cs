@@ -30,7 +30,6 @@
             {
                 Console.WriteLine("Switching cooling mechanism ON..");
                 Console.WriteLine("Cooling mechanism does not works anymore!");
-                Thread.Sleep(1000);
                 _maxTemperatureDecreasingCounter++;
             }
             Console.WriteLine();
