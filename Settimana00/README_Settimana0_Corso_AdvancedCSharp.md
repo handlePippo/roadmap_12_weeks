@@ -218,3 +218,5 @@ Hai bisogno di contravarianza per dire al compilatore:
 
 24/07/2025: Anche oggi eccomi. Fatto quanto? Forse mezz'oretta scarsa.. ma mi sono presentato. Con poca voglia. Con poca motivazione. Con diversi pensieri in testa che mi urlano di lasciar perdere.
 Comunque, eccomi qua.. esercizio sul Termostato completato.
+
+04/08/2024: Dico solo una cosa: porca troia sono tornato. Da domani si inizia. Scadenza 12 Agosto. Completerò il corso per allora.
