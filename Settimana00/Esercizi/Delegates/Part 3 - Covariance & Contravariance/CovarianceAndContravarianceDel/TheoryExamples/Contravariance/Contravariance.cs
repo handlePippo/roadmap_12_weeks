@@ -23,3 +23,50 @@
     public class DerivedClass1 : BaseClass { }
     public class DerivedClass2 : BaseClass { }
 }
+
+class Animal { }
+class Dog : Animal { }
+class Cat : Animal { }
+class Bird : Animal { }
+
+interface IConsumer<in T>
+{
+    void Consume(T src);
+}
+
+interface IProducer<out T> where T : Animal
+{
+    T Produce();
+}
+
+class AnimalProducer<TDest> : IProducer<TDest> where TDest : Animal, new()
+{
+    public TDest Produce() => new TDest();
+}
+
+class AnimalConsumer<TSrc> : IConsumer<TSrc>
+{
+    public void Consume(TSrc src)
+    {
+        throw new NotImplementedException();
+    }
+}
+
+class Example
+{
+    void RunProduce()
+    {
+        IProducer<Dog> dog = new AnimalProducer<Dog>();
+        IProducer<Cat> cat = new AnimalProducer<Cat>();
+        IProducer<Bird> bird = new AnimalProducer<Bird>();
+        IProducer<Animal> animal = dog;
+        IProducer<Animal> animal2 = cat;
+        IProducer<Animal> animal3 = bird;
+    }
+
+    void RunConsume()
+    {
+        IConsumer<Animal> animal = new AnimalConsumer<Animal>();
+        IConsumer<Dog> dog = animal;
+    }
+}
