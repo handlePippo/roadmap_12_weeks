@@ -1,0 +1,12 @@
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\EmployeeUWPApp\EmployeeComponent\bin\Debug\net8.0\EmployeeComponent.deps.json
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\EmployeeUWPApp\EmployeeComponent\bin\Debug\net8.0\EmployeeComponent.dll
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\EmployeeUWPApp\EmployeeComponent\bin\Debug\net8.0\EmployeeComponent.pdb
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\EmployeeUWPApp\EmployeeComponent\obj\Debug\net8.0\EmployeeComponent.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\EmployeeUWPApp\EmployeeComponent\obj\Debug\net8.0\EmployeeComponent.AssemblyInfoInputs.cache
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\EmployeeUWPApp\EmployeeComponent\obj\Debug\net8.0\EmployeeComponent.AssemblyInfo.cs
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\EmployeeUWPApp\EmployeeComponent\obj\Debug\net8.0\EmployeeComponent.csproj.CoreCompileInputs.cache
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\EmployeeUWPApp\EmployeeComponent\obj\Debug\net8.0\EmployeeComponent.sourcelink.json
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\EmployeeUWPApp\EmployeeComponent\obj\Debug\net8.0\EmployeeComponent.dll
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\EmployeeUWPApp\EmployeeComponent\obj\Debug\net8.0\refint\EmployeeComponent.dll
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\EmployeeUWPApp\EmployeeComponent\obj\Debug\net8.0\EmployeeComponent.pdb
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\EmployeeUWPApp\EmployeeComponent\obj\Debug\net8.0\ref\EmployeeComponent.dll
