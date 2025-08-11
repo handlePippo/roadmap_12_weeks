@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmployeeUWPApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+703439cc0fea913b3e2218794a5d677c4a942537")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ceaf15694cd0d4f27914d8ca4de15f81fa416347")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmployeeUWPApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmployeeUWPApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.UI.Xaml;
@@ -18,7 +18,7 @@ public sealed partial class App : Application
     /// </summary>
     public App()
     {
-        InitializeComponent();
+        this.InitializeComponent();
 
         Suspending += OnSuspending;
     }

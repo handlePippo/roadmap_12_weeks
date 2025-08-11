@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\EmployeeUWPApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F727E7C-2369-4DBB-BD55-D73340DF7A8D}|EmployeeUWPApp\\EmployeeUWPApp.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\employeeuwpapp\\employeeuwpapp\\employeeuwpapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{8F727E7C-2369-4DBB-BD55-D73340DF7A8D}|EmployeeUWPApp\\EmployeeUWPApp.csproj|solutionrelative:employeeuwpapp\\employeeuwpapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{8F727E7C-2369-4DBB-BD55-D73340DF7A8D}|EmployeeUWPApp\\EmployeeUWPApp.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\employeeuwpapp\\employeeuwpapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F727E7C-2369-4DBB-BD55-D73340DF7A8D}|EmployeeUWPApp\\EmployeeUWPApp.csproj|solutionrelative:employeeuwpapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8104C23-BA5C-4B1E-9074-3DE86E94B1F6}|EmployeeComponent\\EmployeeComponent.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\employeeuwpapp\\employeecomponent\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8104C23-BA5C-4B1E-9074-3DE86E94B1F6}|EmployeeComponent\\EmployeeComponent.csproj|solutionrelative:employeecomponent\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\EmployeeUWPApp\\EmployeeUWPApp\\obj\\x86\\Debug\\net9.0-windows10.0.26100.0\\win-x86\\MainPage.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeUWPApp\\obj\\x86\\Debug\\net9.0-windows10.0.26100.0\\win-x86\\MainPage.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F727E7C-2369-4DBB-BD55-D73340DF7A8D}|EmployeeUWPApp\\EmployeeUWPApp.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\employeeuwpapp\\employeeuwpapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F727E7C-2369-4DBB-BD55-D73340DF7A8D}|EmployeeUWPApp\\EmployeeUWPApp.csproj|solutionrelative:employeeuwpapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeeUWPApp",
-              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\EmployeeUWPApp\\EmployeeUWPApp\\EmployeeUWPApp.csproj",
-              "RelativeDocumentMoniker": "EmployeeUWPApp\\EmployeeUWPApp.csproj",
-              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\EmployeeUWPApp\\EmployeeUWPApp\\EmployeeUWPApp.csproj",
-              "RelativeToolTip": "EmployeeUWPApp\\EmployeeUWPApp.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-06T22:00:41.458Z",
+              "DocumentIndex": 1,
+              "Title": "MainPage.g.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\EmployeeUWPApp\\EmployeeUWPApp\\obj\\x86\\Debug\\net9.0-windows10.0.26100.0\\win-x86\\MainPage.g.cs",
+              "RelativeDocumentMoniker": "EmployeeUWPApp\\obj\\x86\\Debug\\net9.0-windows10.0.26100.0\\win-x86\\MainPage.g.cs",
+              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\EmployeeUWPApp\\EmployeeUWPApp\\obj\\x86\\Debug\\net9.0-windows10.0.26100.0\\win-x86\\MainPage.g.cs",
+              "RelativeToolTip": "EmployeeUWPApp\\obj\\x86\\Debug\\net9.0-windows10.0.26100.0\\win-x86\\MainPage.g.cs",
+              "ViewState": "AgIAACoCAAAAAAAAAAAEwD0CAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T23:23:34.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\EmployeeUWPApp\\EmployeeComponent\\EmployeeViewModel.cs",
-              "RelativeDocumentMoniker": "EmployeeComponent\\EmployeeViewModel.cs",
-              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\EmployeeUWPApp\\EmployeeComponent\\EmployeeViewModel.cs",
-              "RelativeToolTip": "EmployeeComponent\\EmployeeViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABCAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\EmployeeUWPApp\\EmployeeUWPApp\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "EmployeeUWPApp\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\EmployeeUWPApp\\EmployeeUWPApp\\MainPage.xaml.cs",
+              "RelativeToolTip": "EmployeeUWPApp\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwB0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T21:59:27.476Z",
+              "WhenOpened": "2025-08-11T23:22:46.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\EmployeeUWPApp\\EmployeeUWPApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "EmployeeUWPApp\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\EmployeeUWPApp\\EmployeeUWPApp\\App.xaml.cs",
+              "RelativeToolTip": "EmployeeUWPApp\\App.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowBIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T23:22:43.334Z",
               "EditorCaption": ""
             }
           ]
