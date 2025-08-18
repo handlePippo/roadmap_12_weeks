@@ -220,3 +220,5 @@ Hai bisogno di contravarianza per dire al compilatore:
 Comunque, eccomi qua.. esercizio sul Termostato completato.
 
 04/08/2024: Dico solo una cosa: porca troia sono tornato. Da domani si inizia. Scadenza 12 Agosto. Completerò il corso per allora.
+
+18/07/2024: Tornato nuovamente dopo un periodo di stallo. Sono anche stato in ferie, mi sono ricaricato. Sono piu' motivato che mai ora a riprendere con costanza da dove ho lasciato. Avanti tutta. Stop scuse!

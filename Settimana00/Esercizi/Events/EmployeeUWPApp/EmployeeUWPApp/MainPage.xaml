@@ -56,7 +56,8 @@
             </ListView>
             <TextBox x:Name="txtFirstName" Margin="280" Text="" PlaceholderText="First Name" TextWrapping="NoWrap" Background="#66A24545" Foreground="White"/>
             <Button x:Name="btnChangeFirstName" Content="Change First Name" Margin="375,280" Command="{x:Bind ChangeFirstNameCommand}" CommandParameter="{x:Bind EmployeesList}"/>
-            <Button x:Name="btnThankYou" Content="Thank You" Margin="375,320" Click="BtnThankYou_Click"/>
+            <Button x:Name="btnThankYou" Content="Thank You" Margin="375,320"/>
+            <Button x:Name="btnAddEmployee" Content="Add Employee" Margin="375,380"/>
 
         </RelativePanel>
     </Grid>

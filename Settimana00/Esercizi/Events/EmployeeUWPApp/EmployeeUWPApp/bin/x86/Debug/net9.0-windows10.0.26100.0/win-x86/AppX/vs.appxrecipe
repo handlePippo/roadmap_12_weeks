@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\EmployeeUWPApp\EmployeeUWPApp\bin\x86\Debug\net9.0-windows10.0.26100.0\win-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-08-11T23:26:53.993</Modified>
+      <Modified>2025-08-18T21:19:55.101</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\EmployeeUWPApp\EmployeeUWPApp\bin\x86\Debug\net9.0-windows10.0.26100.0\win-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-08-11T23:26:53.893</Modified>
+      <Modified>2025-08-18T21:19:55.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\EmployeeUWPApp\EmployeeUWPApp\bin\x86\Debug\net9.0-windows10.0.26100.0\win-x86\EmployeeUWPApp.runtimeconfig.json">
       <PackagePath>EmployeeUWPApp.runtimeconfig.json</PackagePath>
@@ -44,7 +44,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\EmployeeUWPApp\EmployeeUWPApp\bin\x86\Debug\net9.0-windows10.0.26100.0\win-x86\EmployeeUWPApp.dll">
       <PackagePath>EmployeeUWPApp.dll</PackagePath>
-      <Modified>2025-08-11T23:26:53.551</Modified>
+      <Modified>2025-08-18T21:19:54.760</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\filip\.nuget\packages\microsoft.netcore.app.runtime.win-x86\9.0.2\runtimes\win-x86\lib\net9.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -788,7 +788,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\EmployeeUWPApp\EmployeeComponent\bin\Debug\net8.0\EmployeeComponent.dll">
       <PackagePath>EmployeeComponent.dll</PackagePath>
-      <Modified>2025-08-11T23:23:29.167</Modified>
+      <Modified>2025-08-18T21:19:28.464</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\filip\.nuget\packages\microsoft.netcore.app.runtime.win-x86\9.0.2\runtimes\win-x86\native\createdump.exe">
       <PackagePath>createdump.exe</PackagePath>
@@ -800,7 +800,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\EmployeeUWPApp\EmployeeUWPApp\obj\x86\Debug\net9.0-windows10.0.26100.0\win-x86\apphost.exe">
       <PackagePath>EmployeeUWPApp.exe</PackagePath>
-      <Modified>2025-08-11T23:26:53.585</Modified>
+      <Modified>2025-08-18T21:19:54.795</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.26100.0\Redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>

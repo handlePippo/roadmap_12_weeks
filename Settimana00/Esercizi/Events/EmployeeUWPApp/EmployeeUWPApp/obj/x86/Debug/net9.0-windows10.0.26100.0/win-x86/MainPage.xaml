@@ -35,20 +35,20 @@
                 </ListView.HeaderTemplate>
                 <ListView.ItemTemplate>
                     <DataTemplate                                 >
-                        <StackPanel x:ConnectionId='8' Orientation="Horizontal" >
-                            <TextBlock x:ConnectionId='9'
+                        <StackPanel x:ConnectionId='9' Orientation="Horizontal" >
+                            <TextBlock x:ConnectionId='10'
                                                           
                                         Width="50" />
-                            <TextBlock x:ConnectionId='10'
+                            <TextBlock x:ConnectionId='11'
                                                                               
                                         Width="300" />
-                            <TextBlock x:ConnectionId='11'                         
+                            <TextBlock x:ConnectionId='12'                         
                                        Width="200" />
-                            <TextBlock x:ConnectionId='12'                             
+                            <TextBlock x:ConnectionId='13'                             
                                        Width="150" />
-                            <TextBlock x:ConnectionId='13'                       
+                            <TextBlock x:ConnectionId='14'                       
                                        Width="80" />
-                            <TextBlock x:ConnectionId='14'                          
+                            <TextBlock x:ConnectionId='15'                          
                                        Width="80" />
                         </StackPanel>
                     </DataTemplate>
@@ -56,7 +56,8 @@
             </ListView>
             <TextBox x:ConnectionId='3' x:Name="txtFirstName" Margin="280" Text="" PlaceholderText="First Name" TextWrapping="NoWrap" Background="#66A24545" Foreground="White"/>
             <Button x:ConnectionId='4' x:Name="btnChangeFirstName" Content="Change First Name" Margin="375,280"                                                                                    />
-            <Button x:ConnectionId='5' x:Name="btnThankYou" Content="Thank You" Margin="375,320"                          />
+            <Button x:ConnectionId='5' x:Name="btnThankYou" Content="Thank You" Margin="375,320"/>
+            <Button x:ConnectionId='6' x:Name="btnAddEmployee" Content="Add Employee" Margin="375,380"/>
 
         </RelativePanel>
     </Grid>

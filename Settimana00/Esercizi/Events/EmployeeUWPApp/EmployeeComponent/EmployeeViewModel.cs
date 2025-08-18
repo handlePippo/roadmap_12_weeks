@@ -4,17 +4,13 @@ namespace EmployeeComponent
 {
     public sealed class EmployeeViewModel : INotifyPropertyChanged
     {
-        public event PropertyChangedEventHandler? PropertyChanged;
-
-        public int Id { get; set; }
+        private const uint LIMIT_MANAGER = 45000;
+        public int Id { get; private init; }
 
         private string _firstName = null!;
         public string FirstName
         {
-            get
-            {
-                return _firstName;
-            }
+            get => _firstName;
             set
             {
                 if (_firstName == value) return;
@@ -23,10 +19,20 @@ namespace EmployeeComponent
             }
         }
 
-        public string LastName { get; set; } = null!;
-        public decimal AnnualSalary { get; set; }
-        public char Gender { get; set; }
-        public bool IsManager => AnnualSalary > 45000;
+        public string LastName { get; private init; } = null!;
+        public decimal AnnualSalary { get; private init; }
+        public char Gender { get; private init; }
+        public bool IsManager => AnnualSalary > LIMIT_MANAGER;
+
+        public event PropertyChangedEventHandler? PropertyChanged;
+        public EmployeeViewModel(int id, string firstName, string lastName, decimal annualSalary, char gender)
+        {
+            Id = id;
+            FirstName = firstName;
+            LastName = lastName;
+            AnnualSalary = annualSalary;
+            Gender = gender;
+        }
 
         private void NotifyPropertyChanged(string propertyName)
         {

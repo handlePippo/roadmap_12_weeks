@@ -2,47 +2,27 @@
 
 namespace EmployeeComponent
 {
-    public sealed class Employees
+    public sealed class Employees : ObservableCollection<EmployeeViewModel>
     {
-        public static ObservableCollection<EmployeeViewModel> GetEmployees()
-        {
-            var employees = new ObservableCollection<EmployeeViewModel>
-            {
-                new EmployeeViewModel
-                {
-                    Id = 1,
-                    FirstName = "John",
-                    LastName = "Green",
-                    AnnualSalary = 40000,
-                    Gender = 'm'
-                },
-                new EmployeeViewModel
-                {
-                    Id = 2,
-                    FirstName = "Sally",
-                    LastName = "Jones",
-                    AnnualSalary = 55000,
-                    Gender = 'f'
-                },
-                new EmployeeViewModel
-                {
-                    Id = 3,
-                    FirstName = "Bill",
-                    LastName = "Blog",
-                    AnnualSalary = 30000,
-                    Gender = 'm'
-                },
-                new EmployeeViewModel
-                {
-                    Id = 4,
-                    FirstName = "Jamie",
-                    LastName = "Hopkins",
-                    AnnualSalary = 80000,
-                    Gender = 'm'
-                }
-            };
+        public Employees() { }
 
-            return employees;
+        public static Employees Seed() => new()
+        {
+            EmployeeFactory.Create(1, "John", "Green", 40000, 'm'),
+            EmployeeFactory.Create(2, "Sally", "Jones", 55000, 'f'),
+            EmployeeFactory.Create(3, "Bill",  "Blog",  30000, 'm'),
+            EmployeeFactory.Create(4, "Jamie","Hopkins",80000,'m'),
+        };
+
+        protected override void InsertItem(int index, EmployeeViewModel item)
+        {
+            // Esempio: blocca duplicati per Id
+            if (this.Any(e => e.Id == item.Id))
+            {
+                throw new InvalidOperationException($"Employee {item.Id} già presente.");
+            }
+
+            base.InsertItem(index, item);
         }
     }
 }
