@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BuildingSurveillanceSystemApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92227b0ab97a6278b92bde25fac05085bde6e051")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84cd3f76b5379e9c66055871321700a3149df828")]
 [assembly: System.Reflection.AssemblyProductAttribute("BuildingSurveillanceSystemApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BuildingSurveillanceSystemApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

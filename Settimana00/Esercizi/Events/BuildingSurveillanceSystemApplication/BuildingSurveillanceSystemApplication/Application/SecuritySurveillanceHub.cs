@@ -1,4 +1,7 @@
-﻿namespace BuildingSurveillanceSystemApplication
+﻿using BuildingSurveillanceSystemApplication.Domain;
+using BuildingSurveillanceSystemApplication.Dto;
+
+namespace BuildingSurveillanceSystemApplication.Application
 {
     public sealed class SecuritySurveillanceHub : IObservable<ExternalVisitor>
     {
@@ -14,7 +17,7 @@
         public void ConfirmExternalVisitorEntersBuilding(ExternalVisitorDto externalVisitorDto)
         {
             ExternalVisitor externalVisitor = externalVisitorDto;
-            _externalVisitors.Add(new ExternalVisitor(externalVisitor));
+            _externalVisitors.Add(externalVisitor);
         }
     }
 }

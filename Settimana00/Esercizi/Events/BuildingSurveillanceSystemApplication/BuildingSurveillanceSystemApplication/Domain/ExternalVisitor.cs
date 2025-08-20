@@ -1,7 +1,12 @@
-﻿namespace BuildingSurveillanceSystemApplication
+﻿using BuildingSurveillanceSystemApplication.Dto;
+
+namespace BuildingSurveillanceSystemApplication.Domain
 {
     public sealed record ExternalVisitor
     {
+
+
+
         public EntityId Id { get; private set; } = null!;
         public EntityId EmployeeContactId { get; private set; } = null!;
         public string FirstName { get; private set; } = null!;
@@ -9,19 +14,15 @@
         public string CompanyName { get; private set; } = null!;
         public string JobTitle { get; private set; } = null!;
         public DateTime EntryDateTime { get; private set; }
+        public DateTime ExitDateTime { get; private set; }
 
-        public ExternalVisitor(ExternalVisitor externalVisitor)
+        private ExternalVisitor()
         {
-            Id = externalVisitor.Id;
-            EmployeeContactId = externalVisitor.EmployeeContactId;
-            FirstName = externalVisitor.FirstName;
-            LastName = externalVisitor.LastName;
-            CompanyName = externalVisitor.CompanyName;
-            JobTitle = externalVisitor.JobTitle;
-            EntryDateTime = externalVisitor.EntryDateTime;
+
         }
 
-        public static implicit operator ExternalVisitor(ExternalVisitorDto externalVisitorDto)
+        public static implicit operator ExternalVisitor(ExternalVisitorDto externalVisitorDto) => ToExternalVisitor(externalVisitorDto);
+        public static ExternalVisitor ToExternalVisitor(ExternalVisitorDto externalVisitorDto)
         {
             ArgumentNullException.ThrowIfNull(externalVisitorDto);
 
@@ -33,6 +34,7 @@
             externalVisitor.CompanyName = externalVisitorDto.CompanyName;
             externalVisitor.JobTitle = externalVisitorDto.JobTitle;
             externalVisitor.EntryDateTime = externalVisitorDto.EntryDateTime;
+            externalVisitor.ExitDateTime = externalVisitorDto.ExitDateTime;
 
             return externalVisitor;
         }

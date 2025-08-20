@@ -1,4 +1,4 @@
-﻿namespace BuildingSurveillanceSystemApplication
+﻿namespace BuildingSurveillanceSystemApplication.Domain
 {
     public sealed class EntityId
     {

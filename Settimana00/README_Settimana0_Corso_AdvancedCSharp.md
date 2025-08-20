@@ -224,3 +224,5 @@ Comunque, eccomi qua.. esercizio sul Termostato completato.
 18/07/2025: Tornato nuovamente dopo un periodo di stallo. Sono anche stato in ferie, mi sono ricaricato. Sono piu' motivato che mai ora a riprendere con costanza da dove ho lasciato. Avanti tutta. Stop scuse!
 
 19/07/2025: Eccomi anche oggi. Dedicata 1h30 piena. Macinato codice elegante. Si prosegue.
+
+20/07/2025: Presente. Anche oggi. 30\40 minuti pieni. Sto creando un abitudine, con la sola presenza.
