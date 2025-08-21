@@ -2,11 +2,8 @@
 
 namespace BuildingSurveillanceSystemApplication.Domain
 {
-    public sealed record ExternalVisitor
+    public sealed class ExternalVisitor
     {
-
-
-
         public EntityId Id { get; private set; } = null!;
         public EntityId EmployeeContactId { get; private set; } = null!;
         public string FirstName { get; private set; } = null!;
@@ -34,9 +31,17 @@ namespace BuildingSurveillanceSystemApplication.Domain
             externalVisitor.CompanyName = externalVisitorDto.CompanyName;
             externalVisitor.JobTitle = externalVisitorDto.JobTitle;
             externalVisitor.EntryDateTime = externalVisitorDto.EntryDateTime;
-            externalVisitor.ExitDateTime = externalVisitorDto.ExitDateTime;
-
             return externalVisitor;
+        }
+
+        public void SetExitDateTime(DateTime exitDateTime)
+        {
+            if (EntryDateTime >= exitDateTime)
+            {
+                throw new InvalidOperationException("The entry datetime cannot be greater that the exit datetime");
+            }
+
+            ExitDateTime = exitDateTime;
         }
     }
 }

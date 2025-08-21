@@ -226,3 +226,5 @@ Comunque, eccomi qua.. esercizio sul Termostato completato.
 19/07/2025: Eccomi anche oggi. Dedicata 1h30 piena. Macinato codice elegante. Si prosegue.
 
 20/07/2025: Presente. Anche oggi. 30\40 minuti pieni. Sto creando un abitudine, con la sola presenza.
+
+21/07/2025: Serata... particolare. Piena di distrazioni, tentazioni e istinto di NON fare. Però ho fatto. Ho avviato un pomodoro di mezz'ora e ho fatto la mia parte.

@@ -11,6 +11,7 @@ namespace BuildingSurveillanceSystemApplication.Application
         public IDisposable Subscribe(IObserver<ExternalVisitor> observer)
         {
             _observers.Add(observer);
+        
             throw new NotImplementedException();
         }
 
@@ -18,6 +19,13 @@ namespace BuildingSurveillanceSystemApplication.Application
         {
             ExternalVisitor externalVisitor = externalVisitorDto;
             _externalVisitors.Add(externalVisitor);
+
+            foreach(IObserver<ExternalVisitor> observer in _observers)
+            {
+                observer.OnNext(externalVisitor);
+            }
+
+
         }
     }
 }
