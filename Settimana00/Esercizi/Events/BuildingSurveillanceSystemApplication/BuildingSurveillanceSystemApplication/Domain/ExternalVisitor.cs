@@ -11,7 +11,8 @@ namespace BuildingSurveillanceSystemApplication.Domain
         public string CompanyName { get; private set; } = null!;
         public string JobTitle { get; private set; } = null!;
         public DateTime EntryDateTime { get; private set; }
-        public DateTime ExitDateTime { get; private set; }
+        public DateTime? ExitDateTime { get; private set; }
+        public bool InBuilding => !ExitDateTime.HasValue;
 
         private ExternalVisitor()
         {

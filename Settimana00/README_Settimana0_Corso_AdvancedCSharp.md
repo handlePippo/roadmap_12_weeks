@@ -228,3 +228,5 @@ Comunque, eccomi qua.. esercizio sul Termostato completato.
 20/07/2025: Presente. Anche oggi. 30\40 minuti pieni. Sto creando un abitudine, con la sola presenza.
 
 21/07/2025: Serata... particolare. Piena di distrazioni, tentazioni e istinto di NON fare. Però ho fatto. Ho avviato un pomodoro di mezz'ora e ho fatto la mia parte.
+
+22/07/2025: Sono le 18.24 di Venerdì, ho voglia di uscire. Ho voglia di staccare. Nonostante ciò, mi sono ritagliato 20 minuti per portarmi avanti con l'esercizio e sopratutto per mantenere il trend. Il tutto al netto di un'ansietta e una sensazione di poco controllo. Però, eccomi qua.
