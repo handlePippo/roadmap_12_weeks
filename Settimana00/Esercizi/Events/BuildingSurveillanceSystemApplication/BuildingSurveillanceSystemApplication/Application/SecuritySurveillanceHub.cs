@@ -3,25 +3,57 @@ using BuildingSurveillanceSystemApplication.Dto;
 
 namespace BuildingSurveillanceSystemApplication.Application
 {
+
+    public sealed class Unsubscriber<ExternalVisitor> : IDisposable
+    {
+        private readonly List<IObserver<ExternalVisitor>> _observers;
+        private readonly IObserver<ExternalVisitor> _observer;
+        private readonly object _gate; // stesso oggetto usato dal publisher
+
+        public Unsubscriber(List<IObserver<ExternalVisitor>> observers, IObserver<ExternalVisitor> observer, object gate)
+        {
+            _observers = observers;
+            _observer = observer;
+            _gate = gate;
+        }
+
+        public void Dispose()
+        {
+            lock (_gate)
+            {
+                if (_observers.Contains(_observer))
+                {
+                    _observers.Remove(_observer);
+                }
+            }
+        }
+    }
+
     public sealed class SecuritySurveillanceHub : IObservable<ExternalVisitor>
     {
         private readonly List<ExternalVisitor> _externalVisitors = [];
         private readonly List<IObserver<ExternalVisitor>> _observers = [];
+        private readonly object _gate = new(); // GATE CONDIVISO
 
         public IDisposable Subscribe(IObserver<ExternalVisitor> observer)
         {
-            if(!_observers.Contains(observer))
+            ExternalVisitor[] externalVisitorsSnapshot;
+            
+            if (!_observers.Contains(observer))
             {
                 _observers.Add(observer);
             }
 
-            foreach(ExternalVisitor externalVisitor in _externalVisitors)
+            foreach (ExternalVisitor externalVisitor in _externalVisitors)
             {
-                observer.OnNext(externalVisitor);
+                ObserverApi.NotifyObservers(externalVisitor, _observers);
             }
 
             throw new NotImplementedException();
+
+
         }
+
 
         public void ConfirmExternalVisitorEntersBuilding(ExternalVisitorDto externalVisitorDto)
         {
@@ -29,19 +61,20 @@ namespace BuildingSurveillanceSystemApplication.Application
 
             _externalVisitors.Add(externalVisitor);
 
-            NotifyObservers(externalVisitor);
+            ObserverApi.NotifyObservers(externalVisitor, _observers);
         }
 
         public void ConfirmExternalVisitorExitsBuilding(string externalVisitorId, DateTime exitDateTime)
         {
             ArgumentException.ThrowIfNullOrWhiteSpace(externalVisitorId);
 
-            var externalVisitor = _externalVisitors.FirstOrDefault(e => e.Id == EntityId.Create(externalVisitorId));
+            var externalVisitorEntityId = EntityId.Create(externalVisitorId);
+            var externalVisitor = _externalVisitors.FirstOrDefault(e => e.Id == externalVisitorEntityId);
 
             if (externalVisitor is not null)
             {
                 externalVisitor.SetExitDateTime(exitDateTime);
-                NotifyObservers(externalVisitor);
+                ObserverApi.NotifyObservers(externalVisitor, _observers);
             }
         }
 
@@ -49,21 +82,41 @@ namespace BuildingSurveillanceSystemApplication.Application
         {
             if (!_externalVisitors.Any(e => e.InBuilding))
             {
-                Complete();
+                ObserverApi.ReleaseObservers(_observers);
             }
         }
+    }
 
-        private void NotifyObservers(ExternalVisitor externalVisitor)
+    /// <summary>
+    /// Observer API
+    /// </summary>
+    public static class ObserverApi
+    {
+        /// <summary>
+        /// Notifies the observers tied to a particular external visitor.
+        /// </summary>
+        /// <param name="externalVisitor"></param>
+        /// <param name="observers"></param>
+        public static void NotifyObservers(ExternalVisitor externalVisitor, IReadOnlyList<IObserver<ExternalVisitor>> observers)
         {
-            foreach (IObserver<ExternalVisitor> observer in _observers)
+            ArgumentNullException.ThrowIfNull(externalVisitor);
+            ArgumentNullException.ThrowIfNull(observers);
+
+            foreach (IObserver<ExternalVisitor> observer in observers)
             {
                 observer.OnNext(externalVisitor);
             }
         }
 
-        private void Complete()
+        /// <summary>
+        /// Notifies the observers that the job is done.
+        /// </summary>
+        /// <param name="observers"></param>
+        public static void ReleaseObservers(IReadOnlyList<IObserver<ExternalVisitor>> observers)
         {
-            foreach (IObserver<ExternalVisitor> observer in _observers)
+            ArgumentNullException.ThrowIfNull(observers);
+
+            foreach (IObserver<ExternalVisitor> observer in observers)
             {
                 observer.OnCompleted();
             }

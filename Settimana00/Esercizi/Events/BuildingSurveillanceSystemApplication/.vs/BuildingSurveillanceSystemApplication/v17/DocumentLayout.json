@@ -42,8 +42,7 @@
               "RelativeToolTip": "BuildingSurveillanceSystemApplication\\Dto\\ExternalVisitorDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T22:44:59.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T22:44:59.828Z"
             },
             {
               "$type": "Document",
@@ -53,7 +52,7 @@
               "RelativeDocumentMoniker": "BuildingSurveillanceSystemApplication\\Application\\SecuritySurveillanceHub.cs",
               "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\BuildingSurveillanceSystemApplication\\BuildingSurveillanceSystemApplication\\Application\\SecuritySurveillanceHub.cs",
               "RelativeToolTip": "BuildingSurveillanceSystemApplication\\Application\\SecuritySurveillanceHub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-20T22:48:33.346Z",
               "EditorCaption": ""
@@ -75,8 +74,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-20T22:48:57.801Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -99,7 +97,7 @@
               "RelativeDocumentMoniker": "BuildingSurveillanceSystemApplication\\Domain\\ExternalVisitor.cs",
               "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\BuildingSurveillanceSystemApplication\\BuildingSurveillanceSystemApplication\\Domain\\ExternalVisitor.cs",
               "RelativeToolTip": "BuildingSurveillanceSystemApplication\\Domain\\ExternalVisitor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-20T22:55:23.624Z",
               "IsPinned": true,
