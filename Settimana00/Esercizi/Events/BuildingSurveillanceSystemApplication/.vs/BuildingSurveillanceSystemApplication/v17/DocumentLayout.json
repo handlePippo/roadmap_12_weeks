@@ -7,20 +7,8 @@
       "RelativeMoniker": "D:0:0:{34FFF1B1-FC58-4D4F-A704-96C1A1752D59}|BuildingSurveillanceSystemApplication\\BuildingSurveillanceSystemApplication.csproj|solutionrelative:buildingsurveillancesystemapplication\\application\\securitysurveillancehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34FFF1B1-FC58-4D4F-A704-96C1A1752D59}|BuildingSurveillanceSystemApplication\\BuildingSurveillanceSystemApplication.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\buildingsurveillancesystemapplication\\buildingsurveillancesystemapplication\\domain\\externalvisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34FFF1B1-FC58-4D4F-A704-96C1A1752D59}|BuildingSurveillanceSystemApplication\\BuildingSurveillanceSystemApplication.csproj|solutionrelative:buildingsurveillancesystemapplication\\domain\\externalvisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34FFF1B1-FC58-4D4F-A704-96C1A1752D59}|BuildingSurveillanceSystemApplication\\BuildingSurveillanceSystemApplication.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\buildingsurveillancesystemapplication\\buildingsurveillancesystemapplication\\dto\\externalvisitordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34FFF1B1-FC58-4D4F-A704-96C1A1752D59}|BuildingSurveillanceSystemApplication\\BuildingSurveillanceSystemApplication.csproj|solutionrelative:buildingsurveillancesystemapplication\\dto\\externalvisitordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34FFF1B1-FC58-4D4F-A704-96C1A1752D59}|BuildingSurveillanceSystemApplication\\BuildingSurveillanceSystemApplication.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\buildingsurveillancesystemapplication\\buildingsurveillancesystemapplication\\application\\employeenotify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34FFF1B1-FC58-4D4F-A704-96C1A1752D59}|BuildingSurveillanceSystemApplication\\BuildingSurveillanceSystemApplication.csproj|solutionrelative:buildingsurveillancesystemapplication\\application\\employeenotify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34FFF1B1-FC58-4D4F-A704-96C1A1752D59}|BuildingSurveillanceSystemApplication\\BuildingSurveillanceSystemApplication.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\buildingsurveillancesystemapplication\\buildingsurveillancesystemapplication\\application\\securitynotify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34FFF1B1-FC58-4D4F-A704-96C1A1752D59}|BuildingSurveillanceSystemApplication\\BuildingSurveillanceSystemApplication.csproj|solutionrelative:buildingsurveillancesystemapplication\\application\\securitynotify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34FFF1B1-FC58-4D4F-A704-96C1A1752D59}|BuildingSurveillanceSystemApplication\\BuildingSurveillanceSystemApplication.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\buildingsurveillancesystemapplication\\buildingsurveillancesystemapplication\\infrastructure\\exstensions\\exstensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34FFF1B1-FC58-4D4F-A704-96C1A1752D59}|BuildingSurveillanceSystemApplication\\BuildingSurveillanceSystemApplication.csproj|solutionrelative:buildingsurveillancesystemapplication\\infrastructure\\exstensions\\exstensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,15 +22,16 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ExternalVisitorDto.cs",
-              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\BuildingSurveillanceSystemApplication\\BuildingSurveillanceSystemApplication\\Dto\\ExternalVisitorDto.cs",
-              "RelativeDocumentMoniker": "BuildingSurveillanceSystemApplication\\Dto\\ExternalVisitorDto.cs",
-              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\BuildingSurveillanceSystemApplication\\BuildingSurveillanceSystemApplication\\Dto\\ExternalVisitorDto.cs",
-              "RelativeToolTip": "BuildingSurveillanceSystemApplication\\Dto\\ExternalVisitorDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Exstensions.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\BuildingSurveillanceSystemApplication\\BuildingSurveillanceSystemApplication\\Infrastructure\\Exstensions\\Exstensions.cs",
+              "RelativeDocumentMoniker": "BuildingSurveillanceSystemApplication\\Infrastructure\\Exstensions\\Exstensions.cs",
+              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\BuildingSurveillanceSystemApplication\\BuildingSurveillanceSystemApplication\\Infrastructure\\Exstensions\\Exstensions.cs",
+              "RelativeToolTip": "BuildingSurveillanceSystemApplication\\Infrastructure\\Exstensions\\Exstensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T22:44:59.828Z"
+              "WhenOpened": "2025-09-11T22:18:06.349Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -52,55 +41,9 @@
               "RelativeDocumentMoniker": "BuildingSurveillanceSystemApplication\\Application\\SecuritySurveillanceHub.cs",
               "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\BuildingSurveillanceSystemApplication\\BuildingSurveillanceSystemApplication\\Application\\SecuritySurveillanceHub.cs",
               "RelativeToolTip": "BuildingSurveillanceSystemApplication\\Application\\SecuritySurveillanceHub.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCgAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T22:48:33.346Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 181,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmployeeNotify.cs",
-              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\BuildingSurveillanceSystemApplication\\BuildingSurveillanceSystemApplication\\Application\\EmployeeNotify.cs",
-              "RelativeDocumentMoniker": "BuildingSurveillanceSystemApplication\\Application\\EmployeeNotify.cs",
-              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\BuildingSurveillanceSystemApplication\\BuildingSurveillanceSystemApplication\\Application\\EmployeeNotify.cs",
-              "RelativeToolTip": "BuildingSurveillanceSystemApplication\\Application\\EmployeeNotify.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T22:48:57.801Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SecurityNotify.cs",
-              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\BuildingSurveillanceSystemApplication\\BuildingSurveillanceSystemApplication\\Application\\SecurityNotify.cs",
-              "RelativeDocumentMoniker": "BuildingSurveillanceSystemApplication\\Application\\SecurityNotify.cs",
-              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\BuildingSurveillanceSystemApplication\\BuildingSurveillanceSystemApplication\\Application\\SecurityNotify.cs",
-              "RelativeToolTip": "BuildingSurveillanceSystemApplication\\Application\\SecurityNotify.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T22:49:44.632Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ExternalVisitor.cs",
-              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\BuildingSurveillanceSystemApplication\\BuildingSurveillanceSystemApplication\\Domain\\ExternalVisitor.cs",
-              "RelativeDocumentMoniker": "BuildingSurveillanceSystemApplication\\Domain\\ExternalVisitor.cs",
-              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\BuildingSurveillanceSystemApplication\\BuildingSurveillanceSystemApplication\\Domain\\ExternalVisitor.cs",
-              "RelativeToolTip": "BuildingSurveillanceSystemApplication\\Domain\\ExternalVisitor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T22:55:23.624Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-09-11T22:12:15.664Z",
               "EditorCaption": ""
             }
           ]

@@ -2,7 +2,7 @@
 
 namespace BuildingSurveillanceSystemApplication.Domain
 {
-    public sealed record Employee : IEmployee
+    public sealed class Employee : IEmployee
     {
 
     }

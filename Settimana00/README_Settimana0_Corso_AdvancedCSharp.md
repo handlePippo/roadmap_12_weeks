@@ -231,4 +231,6 @@ Comunque, eccomi qua.. esercizio sul Termostato completato.
 
 22/07/2025: Sono le 18.24 di Venerdì, ho voglia di uscire. Ho voglia di staccare. Nonostante ciò, mi sono ritagliato 20 minuti per portarmi avanti con l'esercizio e sopratutto per mantenere il trend. Il tutto al netto di un'ansietta e una sensazione di poco controllo. Però, eccomi qua.
 
-09/03/2025: Sono qui contro ogni briciolo di voglia. Sto giu' di morale ed essere quì mi sembra sbagliato ed inutile.
+03/09/2025: Sono qui contro ogni briciolo di voglia. Sto giu' di morale ed essere quì mi sembra sbagliato ed inutile.
+
+11/09/2025: Sono tornato. Nient'altro. Conto di tornare.

@@ -14,10 +14,7 @@ namespace BuildingSurveillanceSystemApplication.Domain
         public DateTime? ExitDateTime { get; private set; }
         public bool InBuilding => !ExitDateTime.HasValue;
 
-        private ExternalVisitor()
-        {
-
-        }
+        private ExternalVisitor() { }
 
         public static implicit operator ExternalVisitor(ExternalVisitorDto externalVisitorDto) => ToExternalVisitor(externalVisitorDto);
         public static ExternalVisitor ToExternalVisitor(ExternalVisitorDto externalVisitorDto)
