@@ -1,0 +1,12 @@
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\BuildingSurveillanceSystemApplication\Surveillance.Contracts\bin\Debug\net8.0\Surveillance.Contracts.deps.json
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\BuildingSurveillanceSystemApplication\Surveillance.Contracts\bin\Debug\net8.0\Surveillance.Contracts.dll
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\BuildingSurveillanceSystemApplication\Surveillance.Contracts\bin\Debug\net8.0\Surveillance.Contracts.pdb
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\BuildingSurveillanceSystemApplication\Surveillance.Contracts\obj\Debug\net8.0\Surveillance.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\BuildingSurveillanceSystemApplication\Surveillance.Contracts\obj\Debug\net8.0\Surveillance.Contracts.AssemblyInfoInputs.cache
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\BuildingSurveillanceSystemApplication\Surveillance.Contracts\obj\Debug\net8.0\Surveillance.Contracts.AssemblyInfo.cs
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\BuildingSurveillanceSystemApplication\Surveillance.Contracts\obj\Debug\net8.0\Surveillance.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\BuildingSurveillanceSystemApplication\Surveillance.Contracts\obj\Debug\net8.0\Surveillance.Contracts.sourcelink.json
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\BuildingSurveillanceSystemApplication\Surveillance.Contracts\obj\Debug\net8.0\Surveillance.Contracts.dll
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\BuildingSurveillanceSystemApplication\Surveillance.Contracts\obj\Debug\net8.0\refint\Surveillance.Contracts.dll
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\BuildingSurveillanceSystemApplication\Surveillance.Contracts\obj\Debug\net8.0\Surveillance.Contracts.pdb
+C:\Users\filip\OneDrive\Desktop\Roadmap_12_Weeks\Settimana00\Esercizi\Events\BuildingSurveillanceSystemApplication\Surveillance.Contracts\obj\Debug\net8.0\ref\Surveillance.Contracts.dll

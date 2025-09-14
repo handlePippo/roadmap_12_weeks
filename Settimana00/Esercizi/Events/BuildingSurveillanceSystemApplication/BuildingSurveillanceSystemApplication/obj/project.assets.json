@@ -1,11 +1,64 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "Surveillance.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Surveillance.Contracts": "1.0.0",
+          "Surveillance.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Surveillance.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Surveillance.Application.dll": {}
+        }
+      },
+      "Surveillance.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Surveillance.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Surveillance.Contracts.dll": {}
+        }
+      },
+      "Surveillance.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Surveillance.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Surveillance.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Surveillance.Application/1.0.0": {
+      "type": "project",
+      "path": "../Surveillance.Application/Surveillance.Application.csproj",
+      "msbuildProject": "../Surveillance.Application/Surveillance.Application.csproj"
+    },
+    "Surveillance.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Surveillance.Contracts/Surveillance.Contracts.csproj",
+      "msbuildProject": "../Surveillance.Contracts/Surveillance.Contracts.csproj"
+    },
+    "Surveillance.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Surveillance.Domain/Surveillance.Domain.csproj",
+      "msbuildProject": "../Surveillance.Domain/Surveillance.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "Surveillance.Application >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\filip\\.nuget\\packages\\": {},
@@ -39,7 +92,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\BuildingSurveillanceSystemApplication\\Surveillance.Application\\Surveillance.Application.csproj": {
+              "projectPath": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\BuildingSurveillanceSystemApplication\\Surveillance.Application\\Surveillance.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
