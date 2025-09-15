@@ -3,6 +3,7 @@ using Surveillance.Application.Interfaces;
 using Surveillance.Contracts.DTOs;
 using Surveillance.Domain;
 using Surveillance.Infrastructure.Exstensions;
+using System;
 
 namespace Surveillance.Application
 {
