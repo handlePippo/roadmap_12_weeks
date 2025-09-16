@@ -1,4 +1,4 @@
-﻿namespace Surveillance.Domain
+﻿namespace Surveillance.Domain.Various
 {
     public sealed class EntityId
     {

@@ -238,3 +238,5 @@ Comunque, eccomi qua.. esercizio sul Termostato completato.
 14/09/2025: Domenica 14. Ho fatto qualcosa e ho ripreso. Un pomodoro al giorno. Nient'altro. Non mi chiedo nient'altro.
 
 15/09/2025: Presente. E ora a nanna. Sento che sto tornando.
+
+16/09/2025: Presente. 2 Pomodori pieni fatti.

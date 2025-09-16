@@ -1,5 +1,6 @@
 ﻿using Surveillance.Contracts.DTOs;
-using Surveillance.Domain;
+using Surveillance.Domain.Entities;
+using Surveillance.Domain.Various;
 
 namespace Surveillance.Application.Factories;
 

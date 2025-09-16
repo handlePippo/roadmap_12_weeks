@@ -1,12 +1,12 @@
-﻿
-using Surveillance.Domain;
+﻿using Surveillance.Domain.Entities;
+using Surveillance.Domain.Entities.Base;
 
-namespace Surveillance.Infrastructure.Exstensions
+namespace Surveillance.Application.Exstensions
 {
     public static class Exstensions
     {
         public static void TryAdd<TEntity>(this IList<IObserver<TEntity>> sources, IObserver<TEntity> source)
-            where TEntity : ObservableEntity
+            where TEntity : ObservableEntity<TEntity>
         {
             ArgumentNullException.ThrowIfNull(sources, nameof(sources));
             ArgumentNullException.ThrowIfNull(source, nameof(source));

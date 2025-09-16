@@ -1,6 +1,6 @@
-﻿using Surveillance.Domain;
+﻿using Surveillance.Domain.Entities;
 
-namespace Surveillance.Application
+namespace Surveillance.Application.Implementations
 {
     public sealed record SecurityNotify : IObserver<ExternalVisitor>
     {

@@ -1,11 +1,11 @@
-﻿using Surveillance.Application.Factories;
+﻿using Surveillance.Application.Exstensions;
+using Surveillance.Application.Factories;
 using Surveillance.Application.Interfaces;
 using Surveillance.Contracts.DTOs;
-using Surveillance.Domain;
-using Surveillance.Infrastructure.Exstensions;
-using System;
+using Surveillance.Domain.Entities;
+using Surveillance.Domain.Various;
 
-namespace Surveillance.Application
+namespace Surveillance.Application.Implementations
 {
     public sealed class SecuritySurveillanceHub : IObservable<ExternalVisitor>, ISecuritySurveillanceHub
     {

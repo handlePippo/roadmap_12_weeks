@@ -1,13 +1,13 @@
 ﻿using Surveillance.Application.Interfaces;
-using Surveillance.Domain;
+using Surveillance.Domain.Entities.Base;
 
-namespace Surveillance.Infrastructure
+namespace Surveillance.Infrastructure.APIs
 {
     /// <summary>
     /// Observer API
     /// </summary>
     public sealed class ObserverApi<TEntity> : IObservableApi<TEntity>
-        where TEntity : ObservableEntity
+        where TEntity : ObservableEntity<TEntity>
     {
         /// <summary>
         /// Notifies the observers tied to a particular external visitor.

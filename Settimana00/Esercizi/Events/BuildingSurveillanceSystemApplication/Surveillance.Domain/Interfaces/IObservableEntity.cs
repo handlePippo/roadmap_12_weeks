@@ -2,6 +2,6 @@
 {
     public interface IObservableEntity
     {
-        EntityId Id { get; }
+        public string ObservervableName { get; set; }
     }
 }

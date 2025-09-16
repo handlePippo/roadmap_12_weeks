@@ -1,9 +1,12 @@
-﻿namespace Surveillance.Domain
+﻿using Surveillance.Domain.Entities.Base;
+using Surveillance.Domain.Various;
+
+namespace Surveillance.Domain.Entities
 {
     /// <summary>
     /// Domain entity for ExternalVisitor
     /// </summary>
-    public sealed class ExternalVisitor : ObservableEntity
+    public sealed class ExternalVisitor : ObservableEntity<ExternalVisitor>
     {
         public EntityId EmployeeContactId { get; private init; }
         public string FirstName { get; private init; }
@@ -53,6 +56,6 @@
             ExitDateTime = exitDateTime;
         }
 
-        private static string Guard(string s) => string.IsNullOrWhiteSpace(s) ? throw new ArgumentException("Value required.") : s.Trim();
+        private static string Guard(string s) => string.IsNullOrWhiteSpace(s) ? throw new ArgumentException(s) : s.Trim();
     }
 }

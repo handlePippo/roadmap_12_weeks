@@ -1,11 +1,11 @@
-﻿namespace Surveillance.Domain
+﻿namespace Surveillance.Domain.Various
 {
     public sealed class DisposableAction : IDisposable
     {
         private Action _action;
         public DisposableAction(Action action)
         {
-            _action = action;
+            _action = action ?? throw new ArgumentNullException(nameof(action));
         }
 
         public void Dispose()

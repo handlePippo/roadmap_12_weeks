@@ -1,7 +1,9 @@
-﻿namespace Surveillance.Domain
+﻿using Surveillance.Domain.Entities.Base;
+
+namespace Surveillance.Domain.Entities
 {
     public sealed class Unsubscriber<TEntity> : IDisposable
-        where TEntity : ObservableEntity
+        where TEntity : EntityBase<TEntity>
     {
         private IObserver<TEntity>? _observer;
         private readonly IList<IObserver<TEntity>> _observers;
