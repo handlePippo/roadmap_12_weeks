@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{1F3B2F24-99B2-47FB-B85D-2B354A94E202}|Surveillance.Application\\Surveillance.Application.csproj|solutionrelative:surveillance.application\\implementations\\employeenotify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1F3B2F24-99B2-47FB-B85D-2B354A94E202}|Surveillance.Application\\Surveillance.Application.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\buildingsurveillancesystemapplication\\surveillance.application\\implementations\\securitysurveillancehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F3B2F24-99B2-47FB-B85D-2B354A94E202}|Surveillance.Application\\Surveillance.Application.csproj|solutionrelative:surveillance.application\\implementations\\securitysurveillancehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F0579219-0C2F-4475-828E-C5D0815E43A0}|Surveillance.Domain\\Surveillance.Domain.csproj|c:\\users\\filip\\onedrive\\desktop\\roadmap_12_weeks\\settimana00\\esercizi\\events\\buildingsurveillancesystemapplication\\surveillance.domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0579219-0C2F-4475-828E-C5D0815E43A0}|Surveillance.Domain\\Surveillance.Domain.csproj|solutionrelative:surveillance.domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 226,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SecuritySurveillanceHub.cs",
+              "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\BuildingSurveillanceSystemApplication\\Surveillance.Application\\Implementations\\SecuritySurveillanceHub.cs",
+              "RelativeDocumentMoniker": "Surveillance.Application\\Implementations\\SecuritySurveillanceHub.cs",
+              "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\BuildingSurveillanceSystemApplication\\Surveillance.Application\\Implementations\\SecuritySurveillanceHub.cs",
+              "RelativeToolTip": "Surveillance.Application\\Implementations\\SecuritySurveillanceHub.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwF8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T17:56:36.247Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,14 +45,14 @@
               "RelativeDocumentMoniker": "Surveillance.Application\\Implementations\\EmployeeNotify.cs",
               "ToolTip": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\BuildingSurveillanceSystemApplication\\Surveillance.Application\\Implementations\\EmployeeNotify.cs",
               "RelativeToolTip": "Surveillance.Application\\Implementations\\EmployeeNotify.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-16T20:48:15.464Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\filip\\OneDrive\\Desktop\\Roadmap_12_Weeks\\Settimana00\\Esercizi\\Events\\BuildingSurveillanceSystemApplication\\Surveillance.Domain\\Entities\\Employee.cs",
               "RelativeDocumentMoniker": "Surveillance.Domain\\Entities\\Employee.cs",
@@ -43,8 +60,7 @@
               "RelativeToolTip": "Surveillance.Domain\\Entities\\Employee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T20:48:10.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T20:48:10.474Z"
             }
           ]
         }

@@ -15,8 +15,16 @@ namespace Surveillance.Application.Implementations
 
         public void OnCompleted()
         {
-            _employee.GetHashCode(); // Tbd
-            throw new NotImplementedException();
+            var heading = $"{_employee.FirstName} {_employee.LastName} daily visitor's report";
+            Console.WriteLine();
+            Console.WriteLine(heading);
+            Console.WriteLine(new string('-', heading.Length));
+            Console.WriteLine(heading);
+
+            foreach (var externalVisitor in _externalVisitors)
+            {
+                Console.WriteLine($"{externalVisitor.Id.Value,-6} {externalVisitor.FirstName,-6} {externalVisitor.LastName,-6}");
+            }
         }
 
         public void OnError(Exception error)
@@ -36,6 +44,7 @@ namespace Surveillance.Application.Implementations
                     _externalVisitors.Add(externalVisitor);
 
                     Console.WriteLine($"{_employee.FirstName} {_employee.LastName}, your visitor has arrived. Visitor Id {externalVisitor.Id.Value}, FirstName {externalVisitor.FirstName} LastName {externalVisitor.LastName}, entered the building. DateTime {externalVisitor.EntryDateTime:dd MM yyyy hh:mm:ss}");
+                    Console.WriteLine();
                     return;
                 }
 

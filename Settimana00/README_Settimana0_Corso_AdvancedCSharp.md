@@ -240,3 +240,5 @@ Comunque, eccomi qua.. esercizio sul Termostato completato.
 15/09/2025: Presente. E ora a nanna. Sento che sto tornando.
 
 16/09/2025: Presente. 2 Pomodori pieni fatti.
+
+18/09/2025: Poco, ma presente. Andrà meglio quando tornerò dalla Turchia. Me lo prometto. Finirò tutto.
